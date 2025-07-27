@@ -1,10 +1,8 @@
-baseURL: https://datafox-tw.gitlab.io/datafox.tw
-canonifyurls: true
-relativeURLs: false
-
-languageCode: en-us
+baseURL: https://datafox.tw
+languageCode: zh-tw
 title: datafox.tw
 theme: "PaperMod"
+layout: "home"
 
 params:
   author: "datafox & 比卡洛"
@@ -13,12 +11,15 @@ params:
   ShowShareButtons: true
   ShowToc: true
   defaultTheme: "auto"
+  homeInfoParams:
+    Content: |
+      歡迎到以下的連結逛逛，或者加入我們的discord討論更多生活的美好！
   socialIcons:
     - name: email
       url: 'mailto:datafox@gmail.com'
     - name: github
       url: 'https://github.com/datafox-tw'
-      
+
 menu:
   main:
     - name: "首頁"
@@ -41,3 +42,5 @@ assets:
   favicon32x32: /assets/favicon-32x32.png
   apple_touch_icon: /assets/apple-touch-icon.png
 favicon: favicon.ico
+canonifyurls: true
+relativeURLs: false
