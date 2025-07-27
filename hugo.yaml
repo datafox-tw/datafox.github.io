@@ -1,0 +1,40 @@
+baseURL: https://datafox.tw/
+languageCode: en-us
+title: datafox.tw
+theme: "PaperMod"
+
+params:
+  author: "datafox & 比卡洛"
+  description: "datafox的狐狸資料與生活筆記"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: true
+  defaultTheme: "auto"
+  socialIcons:
+    - name: email
+      url: 'mailto:datafox@gmail.com'
+    - name: github
+      url: 'https://github.com/blackwingedkite'
+      
+menu:
+  main:
+    - name: "首頁"
+      url: "/"
+      weight: 1
+    - name: "筆記"
+      url: "/posts"
+      weight: 2
+    - name: "比卡洛的ai村莊"
+      url: "/picaro"
+      weight: 3
+    - name: "心靈角落"
+      url: "/mind"
+      weight: 4
+    - name: "關於"
+      url: "/about"
+      weight: 5
+assets:
+  favicon16x16: /assets/favicon-16x16.png
+  favicon32x32: /assets/favicon-32x32.png
+  apple_touch_icon: /assets/apple-touch-icon.png
+favicon: favicon.ico
