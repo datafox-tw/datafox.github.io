@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on datafox.tw</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:1313/datafox.tw/posts/</link>
     <description>Recent content in Posts on datafox.tw</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/datafox.tw/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>第一篇文章！</title>
-      <link>http://localhost:1313/posts/250727_2154/</link>
+      <link>http://localhost:1313/datafox.tw/posts/250727_2154/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/250727_2154/</guid>
+      <guid>http://localhost:1313/datafox.tw/posts/250727_2154/</guid>
       <description>&lt;p&gt;Hi!
 這樣的話，感覺要寫一篇緣起。
 這一切其實來的蠻快的，我一不小心就刷卡買了這個網域，連datafox這個ip都取得相當的靈性。&lt;/p&gt;

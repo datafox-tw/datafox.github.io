@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/datafox.tw/posts/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/datafox.tw/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/250727_2154/</loc>
+    <loc>http://localhost:1313/datafox.tw/posts/250727_2154/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/datafox.tw/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/datafox.tw/tags/</loc>
   </url>
 </urlset>

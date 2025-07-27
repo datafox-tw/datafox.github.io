@@ -1,4 +1,7 @@
-baseURL: https://datafox.tw/
+baseURL: https://datafox-tw.gitlab.io/datafox.tw
+canonifyurls: true
+relativeURLs: false
+
 languageCode: en-us
 title: datafox.tw
 theme: "PaperMod"
@@ -14,7 +17,7 @@ params:
     - name: email
       url: 'mailto:datafox@gmail.com'
     - name: github
-      url: 'https://github.com/blackwingedkite'
+      url: 'https://github.com/datafox-tw'
       
 menu:
   main:
