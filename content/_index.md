@@ -1,13 +1,13 @@
 ---
 title: "歡迎來到 datafox.tw 🦊"
-subtitle: "這裡是狐狸柯柯的星露谷資料小村莊"
-description: "這裡是狐狸柯柯的星露谷資料小村莊"
+subtitle: ""
+description: ""
 
 layout: "home"
 params:
   socialIcons:
     - name: email
-      url: 'mailto:datafox@gmail.com'
+      url: 'mailto:vincent990622@gmail.com'
     - name: github
       url: 'https://github.com/datafox-tw'
 ---

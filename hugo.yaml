@@ -31,8 +31,8 @@ menu:
     - name: "比卡洛的ai村莊"
       url: "/picaro"
       weight: 3
-    - name: "心靈角落"
-      url: "/mind"
+    - name: "作品集"
+      url: "/portfolio"
       weight: 4
     - name: "關於"
       url: "/about"
