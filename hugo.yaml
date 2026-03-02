@@ -6,14 +6,19 @@ layout: "home"
 
 params:
   author: "datafox & 比卡洛"
-  description: "datafox的狐狸資料與生活筆記"
+  description: "柯宥圻 (Vincent Ko) 的個人網站 - 專注於 AI 系統、LLMOps、Agentic AI 與資料科學的研究與實踐。分享技術筆記、作品集與生活點滴。"
+  keywords: ["AI Systems", "LLMOps", "Agentic AI", "Data Science", "RAG", "Software Engineering", "NTU", "柯宥圻", "Vincent Ko"]
   ShowReadingTime: true
   ShowShareButtons: true
   ShowToc: true
   defaultTheme: "auto"
   homeInfoParams:
+    Title: "Hi, I'm Vincent Ko (datafox) 👋"
     Content: |
-      歡迎到以下的連結逛逛，或者加入我們的discord討論更多生活的美好！
+      我是柯宥圻，目前在台大攻讀資料科學碩士，專注於 Agentic AI 與 LLMOps。
+      歡迎在這裡探索我的技術筆記、大型語言模型研究與個人作品集。
+      
+      或者加入我們的 Discord 討論更多技術與生活的美好！
   socialIcons:
     - name: email
       url: 'mailto:datafox@gmail.com'
@@ -42,5 +47,6 @@ assets:
   favicon32x32: /assets/favicon-32x32.png
   apple_touch_icon: /assets/apple-touch-icon.png
 favicon: favicon.ico
+enableRobotsTXT: true
 canonifyurls: true
 relativeURLs: false

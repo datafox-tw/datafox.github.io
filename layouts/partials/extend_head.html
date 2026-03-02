@@ -1,0 +1,54 @@
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "柯宥圻 (YU-CHI KO)",
+  "alternateName": "Vincent Ko",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ .Site.BaseURL }}images/profile.jpg",
+  "jobTitle": "AI Systems & LLMOps Engineer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "National Taiwan University"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "National Taiwan University",
+      "sameAs": "https://www.ntu.edu.tw"
+    }
+  ],
+  "description": "柯宥圻 (Vincent Ko) 是專注於 AI 系統、LLMOps 及 Agentic AI 的優秀軟體工程師，目前就讀於國立臺灣大學資料科學碩士班，有大量實習與競賽經驗。",
+  "email": "r14946005@ntu.edu.tw",
+  "sameAs": [
+    "https://github.com/datafox-tw",
+    "https://linkedin.com/in/koyuchi"
+  ],
+  "knowsAbout": [
+    "AI Systems",
+    "LLMOps",
+    "Agentic AI",
+    "Software Engineering",
+    "RAG",
+    "GraphRAG",
+    "Python",
+    "C++"
+  ]
+}
+</script>
+{{- end -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "柯宥圻 (YU-CHI KO)"
+  }
+}
+</script>
