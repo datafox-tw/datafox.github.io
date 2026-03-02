@@ -4,13 +4,16 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "柯宥圻 (YU-CHI KO)",
-  "alternateName": "Vincent Ko",
+  "alternateName": ["Vincent Ko", "datafox-tw", "資料狐"],
   "url": "{{ .Site.BaseURL }}",
   "image": "{{ .Site.BaseURL }}images/profile.jpg",
   "jobTitle": "AI Systems & LLMOps Engineer",
+  "gender": "Male",
+  "nationality": "Taiwan",
   "worksFor": {
     "@type": "Organization",
-    "name": "National Taiwan University"
+    "name": "National Taiwan University",
+    "department": "Machine Intelligence & Agentic Systems Lab (MSLAB)"
   },
   "alumniOf": [
     {
@@ -19,36 +22,43 @@
       "sameAs": "https://www.ntu.edu.tw"
     }
   ],
-  "description": "柯宥圻 (Vincent Ko) 是專注於 AI 系統、LLMOps 及 Agentic AI 的優秀軟體工程師，目前就讀於國立臺灣大學資料科學碩士班，有大量實習與競賽經驗。",
+  "description": "柯宥圻 (Vincent Ko) 是專注於 LLMOps、Agentic AI 與 FinTech 的 AI 工程師。現就讀於國立臺灣大學資料科學碩士班，曾任職於國泰世華銀行 LLMOps 工程師，並在 GENAI STARS 等多項 AI 競賽中獲得卓越獎項。",
   "email": "r14946005@ntu.edu.tw",
   "sameAs": [
     "https://github.com/datafox-tw",
-    "https://linkedin.com/in/koyuchi"
+    "https://linkedin.com/in/koyuchi",
+    "https://medium.com/@datafox-tw"
   ],
   "knowsAbout": [
-    "AI Systems",
+    "Large Language Models (LLM)",
     "LLMOps",
-    "Agentic AI",
-    "Software Engineering",
-    "RAG",
+    "Retrieval-Augmented Generation (RAG)",
     "GraphRAG",
+    "Agentic AI",
+    "Quantitative Finance",
+    "Time Series Forecasting",
+    "High-Frequency Trading",
     "Python",
-    "C++"
+    "C++",
+    "Google Cloud Platform (GCP)",
+    "n8n and automation tools"
+  ],
+  "knowsLanguage": [
+    { "@type": "Language", "name": "Mandarin", "alternateName": "zh-TW" },
+    { "@type": "Language", "name": "English", "alternateName": "en" },
+    { "@type": "Language", "name": "Spanish", "alternateName": "es" }
+  ],
+  "award": [
+    "Excellence Award at 2024 GENAI STARS Competition",
+    "Finalist at 2026 TSMC IT CareerHack"
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "NTU AI Club (NTUAI)",
+      "roleName": "Technical Officer"
+    }
   ]
 }
 </script>
 {{- end -}}
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "{{ .Site.Title }}",
-  "url": "{{ .Site.BaseURL }}",
-  "description": "{{ .Site.Params.description }}",
-  "author": {
-    "@type": "Person",
-    "name": "柯宥圻 (YU-CHI KO)"
-  }
-}
-</script>
