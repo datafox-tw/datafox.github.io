@@ -55,3 +55,8 @@ favicon: favicon.ico
 enableRobotsTXT: true
 canonifyurls: true
 relativeURLs: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

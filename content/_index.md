@@ -60,9 +60,11 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 ---
 
 ## 🗓 預約交流 / Book a Session
-我支援 **中文 (Mandarin)** 與 **英文 (English)** 商務對話。
+我對技術交流、潛在合作或職涯心得分享保持開放。我支援 **中文 (Mandarin)** 與 **英文 (English)** 商務對話。
 
-<a href="https://calendly.com/YOUR_CALENDLY_ID" class="btn" style="display: inline-block; background: #006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;">✨ 立即預約 1:1 交流 (Calendly)</a>
+您可以透過下方的預約系統直接挑選我空的時段，我們會透過 Google Meet 進行 1:1 的交流。
+
+<a href="https://calendly.com/datafox-tw/30min" class="btn" style="display: inline-block; background: #006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;">✨ 立即預約 1:1 交流 (Calendly)</a>
 
 ---
 
