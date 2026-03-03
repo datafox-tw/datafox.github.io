@@ -1,30 +1,30 @@
 ---
-title: "datafox (Yu-Chi Ko) | 個人品牌首頁 🦊"
-description: ""
+title: "datafox | Yu-Chi Ko (柯宥圻)"
+---
 
-layout: "home"
-params:
-  socialIcons:
-    - name: email
-      url: 'mailto:datafox.tw@gmail.com'
-    - name: github
-      url: 'https://github.com/datafox-tw'
+# datafox | Yu-Chi Ko (柯宥圻)
+
+### **Agentic AI & LLMOps 專家 | 技術轉譯者**
+**致力於 LLM 系統落地與 AI 技術推廣。**  
+現任台大 AI 社技術部講師，專注於 Agentic AI 與 LLMOps 研究。
+
+具備「企業級系統開發」與「技術推廣教育」雙棲經驗，擅長將複雜的 AI 技術轉化為可落地的解決方案。
+透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
+
 ---
 
 ## 🌟 核心戰績與影響力
 
 ### 「從 0 到 1 的 LLMOps 實踐」
-我是 **柯宥圻**，在**國泰世華銀行**擔任 LLMOps 工程師期間...
+我是 **柯宥圻**，在**國泰世華銀行**擔任 LLMOps 工程師期間，參與了企業級 AI 系統的完整落地流程。
 - **技術力**：將檢索準確率從 70% 提升至 94%。
 - **安全感**：建立具資安意識的惡意查詢偵測模組，安全拒答率提升 85%。
 > *這種在大型金融體系的落地經驗，是我能為企業提供顧問服務的核心價值。*
 
 ---
 
-### 「技術轉譯與教育影響力」
-我也熱衷於將複雜的 AI 理論具象化，讓不同領域的人都能理解並應用。
-- **NTUAI 技術部講師**：負責多場 Agentic AI 與 RAG 工作坊，具備針對百人以上規模的教學經驗。
-- **世貿演講 / GENAI STARS 優勝**：具備在大型論壇與公開場合進行技術發表的能力。
+### 「世貿演講與大型論壇發表」
+具備在大型論壇與公開場合進行技術發表的能力，曾獲得 GENAI STARS 全國競賽優勝。
 
 {{< youtube hJaIqRfw35c >}}
 
@@ -37,7 +37,7 @@ params:
 
 ---
 
-## � 聯繫我 / Contact Me
+## 📬 聯繫我 / Contact Me
 無論您需要策略會議、AI 原型開發還是工作坊 — 我很樂意了解您的挑戰。請在下方留下您的資訊，我會直接在我的信箱 `datafox.tw@gmail.com` 收到您的訊息。
 
 <form action="https://formspree.io/f/mdalrbee" method="POST" style="max-width: 500px; margin: 20px 0; padding: 20px; border: 1px solid var(--border); border-radius: 8px; background: var(--code-bg);">
@@ -60,9 +60,7 @@ params:
 ---
 
 ## 🗓 預約交流 / Book a Session
-我對技術交流、潛在合作或職涯心得分享保持開放。我支援 **中文 (Mandarin)** 與 **英文 (English)** 商務對話。
-
-您可以透過下方的預約系統直接挑選我空的時段，我們會透過 Google Meet 進行 1:1 的交流。
+我支援 **中文 (Mandarin)** 與 **英文 (English)** 商務對話。
 
 <a href="https://calendly.com/YOUR_CALENDLY_ID" class="btn" style="display: inline-block; background: #006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;">✨ 立即預約 1:1 交流 (Calendly)</a>
 

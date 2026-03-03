@@ -12,18 +12,18 @@ params:
   ShowShareButtons: true
   ShowToc: true
   defaultTheme: "auto"
-  homeInfoParams:
-    Title: "datafox | Yu-Chi Ko (柯宥圻)"
-    Content: |
-      **Agentic AI & LLMOps 專家 | 技術轉譯者**  
-      致力於 LLM 系統落地與 AI 技術推廣。
-      
-      具備「企業級系統開發」與「技術推廣教育」雙棲經驗，擅長將複雜的 AI 技術轉化為可落地的解決方案。
-      
-      透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
-      
-      ---
-      📫 **合作洽談：演講邀請、AI 工作坊、技術顧問**
+  # homeInfoParams:
+  #   Title: "datafox | Yu-Chi Ko (柯宥圻)"
+  #   Content: |
+  #     **Agentic AI & LLMOps 專家 | 技術轉譯者**  
+  #     致力於 LLM 系統落地與 AI 技術推廣。
+  #     
+  #     具備「企業級系統開發」與「技術推廣教育」雙棲經驗，擅長將複雜的 AI 技術轉化為可落地的解決方案。
+  #     
+  #     透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
+  #     
+  #     ---
+  #     📫 **合作洽談：演講邀請、AI 工作坊、技術顧問**
   socialIcons:
     - name: email
       url: 'mailto:datafox.tw@gmail.com'
