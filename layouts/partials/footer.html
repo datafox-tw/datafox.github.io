@@ -1,14 +1,22 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
-    {{- if site.Copyright }}
-    <span>{{ site.Copyright | markdownify }}</span>
-    {{- else }}
-    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-    {{- end }}
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a></span>
+
+    <!-- Busuanzi 訪客計數器 -->
+    <span id="busuanzi_container_site_pv" style="display:none; margin-left: 10px;">
+        | 總瀏覽量 <span id="busuanzi_value_site_pv"></span> 次
+    </span>
+    <span id="busuanzi_container_site_uv" style="display:none; margin-left: 10px;">
+        | 總訪客數 <span id="busuanzi_value_site_uv"></span> 人
+    </span>
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
+
+<!-- Busuanzi 核心腳本 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {{- end }}
