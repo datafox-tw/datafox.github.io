@@ -31,7 +31,7 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 具備在大型論壇與公開場合進行技術發表的能力，曾獲 GENAI STARS 全國賽優秀獎。
 
 <div style="margin: 20px 0;">
-  <img src="/images/acml.jpg" alt="ACML 演講現場" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+  <img src="/images/present_big.jpg" alt="Genai Star 演講現場" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
   <p align="center"><i><small>於大型演講廳分享 AI 技術落地實戰</small></i></p>
 </div>
 
