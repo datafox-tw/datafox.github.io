@@ -1,12 +1,12 @@
 ---
 title: "關於我 | About Me"
-description: "柯宥圻 YU-CHI (Vincent) KO - AI Systems & LLMOps · Agentic AI · Software Engineer"
+description: "柯宥圻 YU-CHI (Yuchi) KO - AI Systems & LLMOps · Agentic AI · Software Engineer"
 date: 2026-03-02
 draft: false
 hideMeta: true
 ---
 
-# 柯宥圻 YU-CHI (Vincent) KO
+# 柯宥圻 YU-CHI (Yuchi) KO
 
 ✉ [r14946005@ntu.edu.tw](mailto:r14946005@ntu.edu.tw) ｜ [GitHub](https://github.com/datafox-tw) ｜ [LinkedIn](https://linkedin.com/in/koyuchi)
 
