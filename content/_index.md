@@ -104,4 +104,4 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 ---
 
 ### 「如果您正在尋找能幫您的團隊引入 AI，或是需要一個懂技術也懂產業的開發者，歡迎聯繫我。」
-[contact@datafox.tw](mailto:contact@datafox.tw)
+[datafox.tw@gmail.com](mailto:datafox.tw@gmail.com)

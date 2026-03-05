@@ -27,7 +27,7 @@ params:
   #     📫 **合作洽談：演講邀請、AI 工作坊、技術顧問**
   socialIcons:
     - name: email
-      url: 'mailto:contact@datafox.tw'
+      url: 'mailto:datafox.tw@gmail.com'
     - name: github
       url: 'https://github.com/datafox-tw'
 
