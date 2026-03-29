@@ -8,22 +8,39 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 # datafox | Yu-Chi Ko (柯宥圻)
 
-### **Agentic AI & LLMOps 專家 | 技術轉譯者**
-**致力於 LLM 系統落地與 AI 技術推廣。**  
-現任台大 AI 社技術部講師，專注於 Agentic AI 與 LLMOps 研究。
+### **Agentic AI & LLMOps 專家 | 技術轉譯者 | Google AI Intern**
+**致力於深度 AI 技術研發與技術推廣。** 現任 Google Pixels Team AI 實習生，專注於邊緣端 AI (On-Device AI) 應用。同時擔任台大 AI 社技術部教學部長，致力於 Agentic AI 與 LLMOps 的知識傳播。
 
-具備「企業級系統開發」與「技術推廣教育」雙棲經驗，擅長將複雜的 AI 技術轉化為可落地的解決方案。
-透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
+具備「頂尖科技巨頭研發」、「企業級系統落地」與「技術推廣教育」的多棲經驗。擅長將前沿 AI 技術轉化為可落地的解決方案。透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
 
 ---
 
 ## 🌟 核心戰績與影響力
 
-### 「從 0 到 1 的 LLMOps 實踐」
-我是 **柯宥圻**，在**國泰世華銀行**擔任 LLMOps 工程師期間，參與了企業級 AI 系統的完整落地流程。
+### 「Google Pixels Team AI Intern」 (主打)
+在科技巨頭 **Google** 的 Pixels 團隊擔任 AI 實習生，深入參與 AI 技術在旗艦硬體產品上的落地應用。
+- **邊緣端 AI (On-Device AI)**：參與提升行動裝置上 AI 模型的性能與效率。
+- **創新應用**：致力於將最新的 AI 研究成果轉化為 Pixels 使用者體驗的一部分。
+> *這段在 Google 的經驗，強化了我對極致效能與跨部門協作的理解，是我能提供頂尖技術諮詢的核心。*
+
+---
+
+### 「台大電資學院 & NTUAI 技術部教學部長」
+身為 **國立台灣大學電機資訊學院** (EECS, NTU) 的一員，我在學術與社群領域持續深耕。
+- **教學領導**：擔任台大 AI 社技術部教學部長，負責規劃與教授多場 Agentic AI 與 RAG 工作坊。
+- **大型規模教學**：具備針對百人以上規模進行深度技術授課的經驗，成功培訓眾多學員掌握 AI 技術。
+
+<div style="margin: 20px 0;">
+  <img src="/images/ntuai_personal.png" alt="NTUAI 講師" style="width: 100%; border-radius: 12px; border: 1px solid var(--border);">
+</div>
+
+---
+
+### 「國泰世華銀行 LLMOps 實踐」
+在**國泰世華銀行**擔任 LLMOps 工程師期間，參與了企業級 AI 系統的完整落地流程。
 - **技術力**：提升金融領域正確性，檢索準確率提升至 94%。
 - **安全感**：建立惡意查詢偵測模組，安全拒答率提升 85%。
-> *這種在大型金融體系的落地經驗，是我能為企業提供顧問服務的核心價值。*
+> *這種在大型金融體系的落地經驗，使我了解企業在技術落地時面臨的資安與穩定性挑戰。*
 
 ---
 
@@ -39,15 +56,6 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 ---
 
-### 「NTUAI 技術部講師」
-負責多場 Agentic AI 與 RAG 工作坊，具備針對百人以上規模的教學經驗。
-
-<div style="margin: 20px 0;">
-  <img src="/images/ntuai_personal.png" alt="NTUAI 講師" style="width: 100%; border-radius: 12px; border: 1px solid var(--border);">
-</div>
-
----
-
 ## 🛠 服務範疇 | How I Can Help
 
 ### 🔸 針對企業與公部門 (Consulting & Speaking)
@@ -57,11 +65,16 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 ### 🔸 針對技術團隊 (Engineering)
 - **LLMOps 工程實踐**：從資料前處理、GraphRAG 建構到自動化評測流程。
 - **Agentic Workflow**：設計具備 Long-term memory 與靈活 Tool use 的智能體系統。
+- **On-Device AI 諮詢**：探討 AI 模型在行動裝置上的落地可行性與最佳化。
 
 ---
 
 ## 🏛 合作與社群背景 | Affiliations
 <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; opacity: 0.8;">
+  <div style="text-align: center; margin: 10px;">
+    <img src="/images/google_logo.png" height="60" style="margin-bottom: 5px;"><br>
+    <small>Google</small>
+  </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntuai_logo.png" height="60" style="margin-bottom: 5px;"><br>
     <small>NTU AI Club</small>
