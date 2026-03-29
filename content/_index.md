@@ -17,7 +17,7 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 ## 🌟 核心戰績與影響力
 
-### 「Google Pixels Team AI Intern」 (主打)
+### 「Google Pixels Team AI Intern」 (2026/06開始)
 在科技巨頭 **Google** 的 Pixels 團隊擔任 AI 實習生，深入參與 AI 技術在旗艦硬體產品上的落地應用。
 - **邊緣端 AI (On-Device AI)**：參與提升行動裝置上 AI 模型的性能與效率。
 - **創新應用**：致力於將最新的 AI 研究成果轉化為 Pixels 使用者體驗的一部分。
