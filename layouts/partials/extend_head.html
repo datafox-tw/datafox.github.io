@@ -66,3 +66,72 @@
 <!-- Applause Button (Medium-style claps) -->
 <link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css" />
 <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
+
+<!-- Language Toggle: CSS -->
+<style>
+.lang-en { display: none; }
+html.lang-en .lang-en { display: block; }
+html.lang-en .lang-zh { display: none; }
+
+#lang-toggle {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: transparent;
+  color: inherit;
+  border: 1.5px solid var(--border);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px 8px;
+  line-height: 1.6;
+  transition: border-color 0.2s, color 0.2s;
+  vertical-align: middle;
+}
+#lang-toggle:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+</style>
+
+<!-- Language Toggle: apply saved preference immediately to avoid flash -->
+<script>
+(function () {
+  var lang = localStorage.getItem('site-lang');
+  if (lang === 'en') document.documentElement.classList.add('lang-en');
+})();
+</script>
+
+<!-- Language Toggle: inject button into nav after DOM ready -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var isEn = document.documentElement.classList.contains('lang-en');
+
+  var menu = document.getElementById('menu');
+  if (!menu) return;
+
+  var li = document.createElement('li');
+  var btn = document.createElement('button');
+  btn.id = 'lang-toggle';
+  btn.setAttribute('aria-label', 'Toggle language');
+  btn.title = isEn ? '切換為中文' : 'Switch to English';
+  btn.textContent = isEn ? '中文' : 'EN';
+
+  btn.addEventListener('click', function () {
+    var nowEn = document.documentElement.classList.contains('lang-en');
+    if (nowEn) {
+      document.documentElement.classList.remove('lang-en');
+      localStorage.setItem('site-lang', 'zh');
+      btn.textContent = 'EN';
+      btn.title = 'Switch to English';
+    } else {
+      document.documentElement.classList.add('lang-en');
+      localStorage.setItem('site-lang', 'en');
+      btn.textContent = '中文';
+      btn.title = '切換為中文';
+    }
+  });
+
+  li.appendChild(btn);
+  menu.appendChild(li);
+});
+</script>
