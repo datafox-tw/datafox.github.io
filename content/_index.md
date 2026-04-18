@@ -77,15 +77,15 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; opacity: 0.8;">
   <div style="text-align: center; margin: 10px;">
     <img src="/images/google_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>Google</small>
+    <small>[Google](https://ai.google.dev/)</small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntuai_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>NTU AI Club</small>
+    <small>[NTU AI Club](https://ntuai.dev/)</small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntu.jpg" height="60" style="margin-bottom: 5px;"><br>
-    <small>National Taiwan University</small>
+    <small>[National Taiwan University](https://www.ntu.edu.tw/)</small>
   </div>
 </div>
 
@@ -198,15 +198,15 @@ Experienced in delivering technical presentations at major forums and public eve
 <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; opacity: 0.8;">
   <div style="text-align: center; margin: 10px;">
     <img src="/images/google_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>Google</small>
+    <small>[Google](https://ai.google.dev/)</small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntuai_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>NTU AI Club</small>
+    <small>[NTU AI Club](https://ntuai.dev/)</small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntu.jpg" height="60" style="margin-bottom: 5px;"><br>
-    <small>National Taiwan University</small>
+    <small>[National Taiwan University](https://www.ntu.edu.tw/)</small>
   </div>
 </div>
 

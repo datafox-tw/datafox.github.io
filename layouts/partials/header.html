@@ -48,76 +48,74 @@
                 {{- if site.Params.label.icon }}
                 {{- $img := resources.Get site.Params.label.icon }}
                 {{- if $img }}
-                    {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
-                    {{- if hugo.IsExtended -}}
-                        {{- $processableFormats = $processableFormats | append "webp" -}}
-                    {{- end -}}
-                    {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
-                    {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
-                        {{- if site.Params.label.iconHeight }}
-                            {{- $img = $img.Resize (printf "x%d" site.Params.label.iconHeight) }}
-                        {{ else }}
-                            {{- $img = $img.Resize "x30" }}
-                        {{- end }}
-                    {{- end }}
-                    <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
-                        height="{{- site.Params.label.iconHeight | default "30" -}}">
+                {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+                {{- if hugo.IsExtended -}}
+                {{- $processableFormats = $processableFormats | append "webp" -}}
+                {{- end -}}
+                {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+                {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                {{- if site.Params.label.iconHeight }}
+                {{- $img = $img.Resize (printf "x%d" site.Params.label.iconHeight) }}
+                {{ else }}
+                {{- $img = $img.Resize "x30" }}
+                {{- end }}
+                {{- end }}
+                <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
+                    height="{{- site.Params.label.iconHeight | default " 30" -}}">
                 {{- else }}
                 <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
-                    height="{{- site.Params.label.iconHeight | default "30" -}}">
+                    height="{{- site.Params.label.iconHeight | default " 30" -}}">
                 {{- end -}}
-                {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
-                    {{ site.Params.label.iconSVG | safeHTML }}
-                {{- end -}}
-                {{- $label_text -}}
-            </a>
-            {{- end }}
-            <div class="logo-switches">
-                {{- if (not site.Params.disableThemeToggle) }}
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-                {{- end }}
+                {{- else if hasPrefix site.Params.label.iconSVG "<svg" }} {{ site.Params.label.iconSVG | safeHTML }} {{-
+                    end -}} {{- $label_text -}} </a>
+                    {{- end }}
+                    <div class="logo-switches">
+                        {{- if (not site.Params.disableThemeToggle) }}
+                        <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                            <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                            </svg>
+                            <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="5"></circle>
+                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                            </svg>
+                        </button>
+                        {{- end }}
 
-                {{- $lang := .Lang}}
-                {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
-                {{- with site.Home.Translations }}
-                <ul class="lang-switch">
-                    {{- if $separator }}<li>|</li>{{ end }}
-                    {{- range . -}}
-                    {{- if ne $lang .Lang }}
-                    <li>
-                        <a href="{{- .Permalink -}}" title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
-                            aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                            {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
-                            {{- .Language.LanguageName | emojify -}}
-                            {{- else }}
-                            {{- .Lang | title -}}
+                        {{- $lang := .Lang}}
+                        {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
+                        {{- with site.Home.Translations }}
+                        <ul class="lang-switch">
+                            {{- if $separator }}<li>|</li>{{ end }}
+                            {{- range . -}}
+                            {{- if ne $lang .Lang }}
+                            <li>
+                                <a href="{{- .Permalink -}}"
+                                    title="{{ .Language.Params.languageAltTitle | default (.Language.LanguageName | emojify) | default (.Lang | title) }}"
+                                    aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
+                                    {{- if (and site.Params.displayFullLangName (.Language.LanguageName)) }}
+                                    {{- .Language.LanguageName | emojify -}}
+                                    {{- else }}
+                                    {{- .Lang | title -}}
+                                    {{- end -}}
+                                </a>
+                            </li>
                             {{- end -}}
-                        </a>
-                    </li>
-                    {{- end -}}
-                    {{- end}}
-                </ul>
-                {{- end }}
-            </div>
+                            {{- end}}
+                        </ul>
+                        {{- end }}
+                    </div>
         </div>
         {{- $currentPage := . }}
         <ul id="menu">
@@ -126,8 +124,9 @@
             {{- $page_url:= $currentPage.Permalink | absLangURL }}
             {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
             <li>
-                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)"
+                    | safeHTMLAttr) ("" | safeHTMLAttr ) }}" {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" |
+                    safeHTMLAttr ) }}>
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
                         {{- .Pre }}
                         {{- .Name -}}
@@ -148,51 +147,56 @@
     </nav>
 
     <!-- Custom Global Search -->
-    <div id="global-search-container" style="max-width: calc(var(--main-width) + var(--gap) * 2); margin: 0 auto; padding: 0 var(--gap); position: relative; padding-bottom: 10px;">
-        <input type="text" id="global-search-input" placeholder="🔍 全域搜尋 (精確比對)..." style="width: 100%; padding: 8px 12px; border: 1.5px solid var(--border); border-radius: 6px; background: transparent; color: inherit; outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'" />
-        <ul id="global-search-results" style="display: none; position: absolute; top: calc(100% - 10px); left: var(--gap); right: var(--gap); background: var(--theme); border: 1.5px solid var(--border); border-top: none; border-radius: 0 0 6px 6px; z-index: 1000; max-height: 400px; overflow-y: auto; list-style: none; padding: 0; margin: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"></ul>
+    <div id="global-search-container"
+        style="max-width: calc(var(--main-width) + var(--gap) * 2); margin: 0 auto; padding: 0 var(--gap); position: relative; padding-bottom: 10px;">
+        <input type="text" id="global-search-input" placeholder="🔍 搜尋你想要找尋的關鍵字..."
+            style="width: 100%; padding: 8px 12px; border: 1.5px solid var(--border); border-radius: 6px; background: transparent; color: inherit; outline: none; transition: border-color 0.2s;"
+            onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'" />
+        <ul id="global-search-results"
+            style="display: none; position: absolute; top: calc(100% - 10px); left: var(--gap); right: var(--gap); background: var(--theme); border: 1.5px solid var(--border); border-top: none; border-radius: 0 0 6px 6px; z-index: 1000; max-height: 400px; overflow-y: auto; list-style: none; padding: 0; margin: 0; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        </ul>
     </div>
-    
+
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const searchInput = document.getElementById('global-search-input');
-        const searchResults = document.getElementById('global-search-results');
-        let searchIndex = null;
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('global-search-input');
+            const searchResults = document.getElementById('global-search-results');
+            let searchIndex = null;
 
-        fetch('/index.json')
-            .then(res => res.json())
-            .then(data => {
-                searchIndex = data;
-            })
-            .catch(err => console.error('Failed to load search index', err));
+            fetch('/index.json')
+                .then(res => res.json())
+                .then(data => {
+                    searchIndex = data;
+                })
+                .catch(err => console.error('Failed to load search index', err));
 
-        searchInput.addEventListener('input', function() {
-            const query = this.value.trim().toLowerCase();
-            if (query.length === 0) {
-                searchResults.style.display = 'none';
-                searchResults.innerHTML = '';
-                return;
-            }
+            searchInput.addEventListener('input', function () {
+                const query = this.value.trim().toLowerCase();
+                if (query.length === 0) {
+                    searchResults.style.display = 'none';
+                    searchResults.innerHTML = '';
+                    return;
+                }
 
-            if (!searchIndex) return;
+                if (!searchIndex) return;
 
-            const results = searchIndex.filter(item => {
-                return (item.title && item.title.toLowerCase().includes(query)) ||
-                       (item.content && item.content.toLowerCase().includes(query)) ||
-                       (item.summary && item.summary.toLowerCase().includes(query));
-            });
+                const results = searchIndex.filter(item => {
+                    return (item.title && item.title.toLowerCase().includes(query)) ||
+                        (item.content && item.content.toLowerCase().includes(query)) ||
+                        (item.summary && item.summary.toLowerCase().includes(query));
+                });
 
-            results.sort((a, b) => {
-                const dateA = new Date(a.date || 0);
-                const dateB = new Date(b.date || 0);
-                return dateB - dateA;
-            });
+                results.sort((a, b) => {
+                    const dateA = new Date(a.date || 0);
+                    const dateB = new Date(b.date || 0);
+                    return dateB - dateA;
+                });
 
-            if (results.length > 0) {
-                searchResults.style.display = 'block';
-                searchResults.innerHTML = results.map(item => {
-                    const dateStr = item.datestr ? `<span style="font-size: 0.8rem; color: var(--tertiary); margin-left: 8px;">${item.datestr}</span>` : '';
-                    return `
+                if (results.length > 0) {
+                    searchResults.style.display = 'block';
+                    searchResults.innerHTML = results.map(item => {
+                        const dateStr = item.datestr ? `<span style="font-size: 0.8rem; color: var(--tertiary); margin-left: 8px;">${item.datestr}</span>` : '';
+                        return `
                     <li style="border-bottom: 1px solid var(--border);">
                         <a href="${item.permalink}" style="display: block; padding: 12px; text-decoration: none; color: var(--primary);">
                             <div style="font-weight: bold; margin-bottom: 4px;">${item.title} ${dateStr}</div>
@@ -200,24 +204,24 @@
                         </a>
                     </li>
                     `;
-                }).join('');
-            } else {
-                searchResults.style.display = 'block';
-                searchResults.innerHTML = '<li style="padding: 12px; color: var(--tertiary); text-align: center;">沒有找到任何結果</li>';
-            }
+                    }).join('');
+                } else {
+                    searchResults.style.display = 'block';
+                    searchResults.innerHTML = '<li style="padding: 12px; color: var(--tertiary); text-align: center;">沒有找到任何結果</li>';
+                }
+            });
+
+            document.addEventListener('click', function (e) {
+                if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+                    searchResults.style.display = 'none';
+                }
+            });
+
+            searchInput.addEventListener('focus', function () {
+                if (this.value.trim().length > 0 && searchResults.innerHTML !== '') {
+                    searchResults.style.display = 'block';
+                }
+            });
         });
-        
-        document.addEventListener('click', function(e) {
-            if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
-                searchResults.style.display = 'none';
-            }
-        });
-        
-        searchInput.addEventListener('focus', function() {
-            if (this.value.trim().length > 0 && searchResults.innerHTML !== '') {
-                searchResults.style.display = 'block';
-            }
-        });
-    });
     </script>
 </header>
