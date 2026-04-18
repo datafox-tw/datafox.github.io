@@ -77,15 +77,15 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; opacity: 0.8;">
   <div style="text-align: center; margin: 10px;">
     <img src="/images/google_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>[Google](https://ai.google.dev/)</small>
+    <small><a href="https://ai.google.dev/" target="_blank" rel="noopener">Google</a></small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntuai_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>[NTU AI Club](https://ntuai.dev/)</small>
+    <small><a href="https://ntuai.dev/" target="_blank" rel="noopener">NTU AI Club</a></small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntu.jpg" height="60" style="margin-bottom: 5px;"><br>
-    <small>[National Taiwan University](https://www.ntu.edu.tw/)</small>
+    <small><a href="https://www.ntu.edu.tw/" target="_blank" rel="noopener">National Taiwan University</a></small>
   </div>
 </div>
 
@@ -198,15 +198,15 @@ Experienced in delivering technical presentations at major forums and public eve
 <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; opacity: 0.8;">
   <div style="text-align: center; margin: 10px;">
     <img src="/images/google_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>[Google](https://ai.google.dev/)</small>
+    <small><a href="https://ai.google.dev/" target="_blank" rel="noopener">Google</a></small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntuai_logo.png" height="60" style="margin-bottom: 5px;"><br>
-    <small>[NTU AI Club](https://ntuai.dev/)</small>
+    <small><a href="https://ntuai.dev/" target="_blank" rel="noopener">NTU AI Club</a></small>
   </div>
   <div style="text-align: center; margin: 10px;">
     <img src="/images/ntu.jpg" height="60" style="margin-bottom: 5px;"><br>
-    <small>[National Taiwan University](https://www.ntu.edu.tw/)</small>
+    <small><a href="https://www.ntu.edu.tw/" target="_blank" rel="noopener">National Taiwan University</a></small>
   </div>
 </div>
 
