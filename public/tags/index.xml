@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on datafox.tw</title>
     <link>https://datafox.tw/tags/</link>
     <description>Recent content in Tags on datafox.tw</description>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
+    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI SEO</title>
+      <link>https://datafox.tw/tags/ai-seo/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/ai-seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Pages</title>
+      <link>https://datafox.tw/tags/github-pages/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://datafox.tw/tags/hugo/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLMOps</title>
+      <link>https://datafox.tw/tags/llmops/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/llmops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal Branding</title>
+      <link>https://datafox.tw/tags/personal-branding/</link>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/personal-branding/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

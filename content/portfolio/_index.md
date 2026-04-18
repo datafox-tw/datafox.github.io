@@ -6,6 +6,8 @@ draft: false
 hideMeta: true
 ---
 
+{{< lang-toggle >}}
+
 <div class="lang-zh">
 
 這個作品集導覽提供了一條清楚的閱讀路徑，而不單純是羅列所有專案。

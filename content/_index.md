@@ -2,6 +2,8 @@
 title: "datafox | Yu-Chi Ko (柯宥圻)"
 ---
 
+{{< lang-toggle >}}
+
 <div class="lang-zh">
 
 <div align="center">

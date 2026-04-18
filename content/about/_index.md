@@ -6,6 +6,8 @@ draft: false
 hideMeta: true
 ---
 
+{{< lang-toggle >}}
+
 <div class="lang-zh">
 
 # 柯宥圻 YU-CHI (Yuchi) KO
