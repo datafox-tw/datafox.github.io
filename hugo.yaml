@@ -39,8 +39,8 @@ menu:
     - name: "筆記"
       url: "/posts"
       weight: 2
-    - name: "比卡洛的ai村莊"
-      url: "/picaro"
+    - name: "和datafox聊聊"
+      url: "/coffeechat"
       weight: 3
     - name: "作品集"
       url: "/portfolio"

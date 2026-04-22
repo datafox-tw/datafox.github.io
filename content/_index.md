@@ -12,12 +12,31 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 # datafox | Yu-Chi Ko (柯宥圻)
 
-### **Agentic AI & LLMOps 專家 | 技術轉譯者 | Google AI Intern**
-**致力於深度 AI 技術研發與技術推廣。** 現任 Google Pixels Team AI 實習生，專注於邊緣端 AI (On-Device AI) 應用。同時擔任台大 AI 社技術部教學部長，致力於 Agentic AI 與 LLMOps 的知識傳播。
+### **Agentic AI & LLMOps 專家 | 技術轉譯者 | Google AI Intern | 在雜訊中尋找真實的邏輯**
 
-具備「頂尖科技巨頭研發」、「企業級系統落地」與「技術推廣教育」的多棲經驗。擅長將前沿 AI 技術轉化為可落地的解決方案。透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
+這裡是 DataFox (柯宥圻) 的資料避風港。
+
+我是台大資料科學所的學生，**致力於深度 AI 技術研發與技術推廣，**也是即將入職 Google Pixel 的 AI 實習生、同時擔任台大 AI 社技術部教學部長。但在這些標籤背後，我更是一個技術的轉譯者與實踐者。
+
+我熱衷於將複雜的 Multi-agent System 與 LLMOps 轉化為真正能解決問題的工具。我對「人工智慧炒作」保持質疑，但對實現 GenAI 落地過程中的那些「繁瑣而真實的工程挑戰」充滿熱情。
+
+我具備「頂尖科技巨頭研發」、「企業級系統落地」與「技術推廣教育」的多棲經驗。擅長將前沿 AI 技術轉化為可落地的解決方案。透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
+
+同時，我也希望可以透過我個人的經歷轉換成真實的輸出，可以參考 [和Datafox喝杯咖啡](/coffeechat) 以及[Podcast](/podcast)來了解我正在做的事情。
 
 ---
+
+### Why I’m Here：技術、產出與真實連結
+
+這個網站不只是我的履歷，更是我與世界連結的 Release Note。我深信，最強大的技術如果沒有經過對話與轉譯，就只是冰冷的代碼。包含：
+
+- 技術筆記：我在 Google、NTUAI 與資科所累積的技術 Input，在這裡轉化為不帶馬屁味的實戰紀錄。
+
+- 人生 Beta 版 (Podcast)：比起標準答案，我更喜歡在節目中與朋友聊聊那些大數據也算不出來的職涯轉折與生活隨想。
+
+- 1:1 Coffee Chat：我熱愛與真實的人產生連結。不管是聊技術邏輯、職涯焦慮，還是單純想討論為什麼皮克敏這麼療癒，這裡始終開放預約。
+
+
 
 ## 🌟 核心戰績與影響力
 
@@ -60,19 +79,6 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 ---
 
-## 🛠 服務範疇 | How I Can Help
-
-### 🔸 針對企業與公部門 (Consulting & Speaking)
-- **AI 導引基礎建設**：避開盲目追求模型的陷阱，建立符合資安規範的 RAG 查詢系統。
-- **跨部門 AI 通識教育**：打破技術門檻，讓非工程人員也能掌握 Prompt Engineering 流程。
-
-### 🔸 針對技術團隊 (Engineering)
-- **LLMOps 工程實踐**：從資料前處理、GraphRAG 建構到自動化評測流程。
-- **Agentic Workflow**：設計具備 Long-term memory 與靈活 Tool use 的智能體系統。
-- **On-Device AI 諮詢**：探討 AI 模型在行動裝置上的落地可行性與最佳化。
-
----
-
 ## 🏛 合作與社群背景 | Affiliations
 <div style="display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; margin-top: 30px; opacity: 0.8;">
   <div style="text-align: center; margin: 10px;">
@@ -89,14 +95,43 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
   </div>
 </div>
 
----
+-----
+
+## ☕️ 聊聊 AI，也聊聊人生：免費 Coffee Chat 預約
+
+我深信最強大的技術如果沒有經過對話與轉譯，就只是冰冷的代碼。我重視**質疑精神、嚴謹的技術，以及真摯的合作**。如果你也厭倦了 AI 圈常見的馬屁文化，嚮往那種「Zero-bullshit」、直指核心的交流，歡迎找我敲門，使用下面的calendly進行預約。
+
+**Coffee Chat 對我來說是一個共學的過程，因此完全免費。** 如果你覺得這場對話對你有幫助，我會邀請你將這份喜悅轉化為對 [**他鄉狐狸**](https://www.buymeacoffee.com/sunnyfoxfamily) 或 [**台灣猛禽研究會**](https://rrgt.org.tw/) 的支持。這是我作為 DataFox，對這片土地與生態的一點私心。
+
+-----
+
+## 🎤 技術轉譯：公眾演講、工作坊與顧問諮詢
+
+除了私下的 Coffee Chat，我也喜歡在講台上將複雜的技術碎形，拼湊成大家都能理解的實作地圖。我具備引領不同背景的使用者（從技術新手到中階開發者）深入理解 AI 應用的經驗。如果你有以下需求，歡迎來信洽談或直接預約時段討論：
+
+### 🔸 針對企業與公部門 (Consulting & Speaking)
+
+  * **AI 導入與基礎建設**：避開盲目追求模型的陷阱，建立符合資安規範且具備商業邏輯的 RAG 系統。
+  * **跨部門 AI 通識教育**：打破技術門檻，讓非工程人員也能精準掌握 Prompt Engineering 與 Agentic AI 的潛力。
+
+### 🔸 針對技術團隊 (Engineering Workshop)
+
+  * **LLMOps 工程實踐**：從資料前處理、GraphRAG 建構到自動化評測流程的完整落地。
+  * **Agentic Workflow 設計**：打造具備長期記憶、能自我糾錯且靈活調用工具的智能體系統。
+  * **On-Device AI 諮詢**：評估 AI 模型在邊緣端（行動裝置）落地的可行性與效能優化。
+
+-----
 
 ## 🗓 預約交流 / Book a Session
-我支援 **中文 (Mandarin)** 與 **英文 (English)** 商務對話。
 
-<a href="https://calendly.com/datafox-tw/30min" class="btn" style="display: inline-block; background: #006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;">✨ 立即預約 1:1 交流 (Calendly)</a>
+我可以進行 **中文 (Mandarin)** 與 **英文 (English)** 的深度對話。交流時長約 30 分鐘至 2 小時不等。
 
----
+> **"Þetta reddast"** —— 冰島人常說「一切都會好轉的」。無論你是對技術感到迷惘，還是對職涯感到焦慮，說不定聊一聊，我們就能找到那個正確的推理路徑。
+
+\<a href="[https://calendly.com/datafox-tw/30min](https://calendly.com/datafox-tw/30min)" class="btn" style="display: inline-block; background: \#006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;"\>✨ 立即預約 1:1 交流 (Calendly)\</a\>
+
+-----
+
 
 ## 📬 聯繫我 / Contact Me
 您可以透過下方的表單直接聯繫我，我會盡快回覆您的需求。
@@ -120,8 +155,12 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 ---
 
-### 「如果您正在尋找能幫您的團隊引入 AI，或是需要一個懂技術也懂產業的開發者，歡迎聯繫我。」
+### 「如果您正在尋找的不是一個簡單的 API 搬運工，而是一個懂技術、愛觀察、且願意與你一起探索 AI 真相的夥伴，歡迎敲門。」
+
 [datafox.tw@gmail.com](mailto:datafox.tw@gmail.com)
+
+
+
 
 </div>
 
