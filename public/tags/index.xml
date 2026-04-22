@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on datafox.tw</title>
     <link>https://datafox.tw/tags/</link>
     <description>Recent content in Tags on datafox.tw</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.148.1</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcast</title>
+      <link>https://datafox.tw/tags/podcast/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/podcast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>交易員</title>
+      <link>https://datafox.tw/tags/%E4%BA%A4%E6%98%93%E5%93%A1/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E4%BA%A4%E6%98%93%E5%93%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>人生 Release Note</title>
+      <link>https://datafox.tw/tags/%E4%BA%BA%E7%94%9F-release-note/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E4%BA%BA%E7%94%9F-release-note/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>歐洲生活</title>
+      <link>https://datafox.tw/tags/%E6%AD%90%E6%B4%B2%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E6%AD%90%E6%B4%B2%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>西班牙</title>
+      <link>https://datafox.tw/tags/%E8%A5%BF%E7%8F%AD%E7%89%99/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E8%A5%BF%E7%8F%AD%E7%89%99/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>股票</title>
+      <link>https://datafox.tw/tags/%E8%82%A1%E7%A5%A8/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E8%82%A1%E7%A5%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>財金系</title>
+      <link>https://datafox.tw/tags/%E8%B2%A1%E9%87%91%E7%B3%BB/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E8%B2%A1%E9%87%91%E7%B3%BB/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI SEO</title>
       <link>https://datafox.tw/tags/ai-seo/</link>

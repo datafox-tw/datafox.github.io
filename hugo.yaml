@@ -45,9 +45,12 @@ menu:
     - name: "作品集"
       url: "/portfolio"
       weight: 4
+    - name: "podcast"
+      url: "/podcast"
+      weight: 5
     - name: "關於"
       url: "/about"
-      weight: 5
+      weight: 6
 assets:
   favicon16x16: /assets/favicon-16x16.png
   favicon32x32: /assets/favicon-32x32.png
