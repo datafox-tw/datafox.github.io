@@ -18,23 +18,19 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 我是台大資料科學所的學生，致力於 AI 技術研發與推廣，也是即將入職 Google Taiwan 的 AI 實習生、同時擔任台大 AI 社技術部教學部長。但在這些標籤背後，我更是一個技術的轉譯者與實踐者。
 
-我熱衷於將複雜的 Multi-agent System 與 LLMOps 轉化為真正能解決問題的工具。我對「人工智慧炒作」保持質疑，但對實現 GenAI 落地過程中的那些「繁瑣而真實的工程挑戰」充滿熱情。
-
-我具備「頂尖科技巨頭研發」、「企業級系統落地」與「技術推廣教育」的多棲經驗。擅長將前沿 AI 技術轉化為可落地的解決方案。可以透過 [技術筆記](/posts) 了解我的研究，或查看我的 [作品集](/portfolio) 與實戰經驗。
-
-同時，我也希望可以透過我個人的經歷轉換成真實的輸出，可以參考 [和Datafox喝杯咖啡](/coffeechat) 以及[Podcast](/podcast)來了解我正在做的事情。
+我熱衷於將複雜的 Multi-agent System 與 LLMOps 轉化為真正能解決問題的工具。我對「人工智慧炒作」保持質疑，但對實現 GenAI 落地過程中的那些「繁瑣而真實的工程挑戰」充滿熱情。與此同時，我也擅長將前沿 AI 技術轉化為可落地的解決方案，以及將我的所見所聞用coffee chat或者是工作坊主持人的方式和大家分享。
 
 ---
 
 ### Why I’m Here：技術、產出與真實連結
 
-這個網站不只是我的履歷，同時也是我與世界連結的 Release Note。我深信，最強大的技術如果沒有經過對話與轉譯，就只是冰冷的代碼。包含：
+這個網站不只是我的履歷，同時也是我與世界連結的 Release Note。我深信，最強大的技術如果沒有經過對話與轉譯，就只是冰冷的代碼。
 
-- 技術筆記：我在 Google、NTUAI 與資科所累積的技術 Input，在這裡轉化為不帶馬屁味的實戰紀錄。
+- [技術筆記](/posts)我在 Google、NTUAI 與資科所累積的技術 Input，在這裡轉化為不帶馬屁味的實戰紀錄。
 
-- 人生 Release Note (Podcast)：比起標準答案，我更喜歡在節目中與朋友聊聊那些大數據也算不出來的職涯轉折與生活隨想。
+- [人生 Release Note (Podcast)](/podcast)：比起標準答案，我更喜歡在節目中與朋友聊聊那些大數據也算不出來的職涯轉折與生活隨想。
 
-- 1:1 Coffee Chat：我熱愛與真實的人產生連結。不管是聊技術邏輯、職涯焦慮，還是單純想討論為什麼皮克敏這麼療癒，這裡始終開放預約。
+- [1:1 Coffee Chat](/coffeechat)：我熱愛與真實的人產生連結。不管是聊技術邏輯、職涯焦慮，還是單純想討論為什麼皮克敏這麼療癒，這裡始終開放預約。
 
 ## 🌟 一些曾經努力過的經驗
 
@@ -127,7 +123,8 @@ title: "datafox | Yu-Chi Ko (柯宥圻)"
 
 > **"Þetta reddast"** —— 冰島人常說「一切都會好轉的」。無論你是對技術感到迷惘，還是對職涯感到焦慮，說不定聊一聊，我們就能找到那個正確的推理路徑。
 
-\<a href="[https://calendly.com/datafox-tw/30min](https://calendly.com/datafox-tw/30min)" class="btn" style="display: inline-block; background: \#006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;"\>✨ 立即預約 1:1 交流 (Calendly)\</a\>
+
+<a href="https://calendly.com/datafox-tw/30min" class="btn" style="display: inline-block; background: #006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;">✨ 立即預約 1:1 交流 (Calendly)</a>
 
 -----
 
