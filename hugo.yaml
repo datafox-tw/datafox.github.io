@@ -48,7 +48,7 @@ menu:
     - name: "podcast"
       url: "/podcast"
       weight: 5
-    - name: "關於"
+    - name: "關於我"
       url: "/about"
       weight: 6
 assets:
