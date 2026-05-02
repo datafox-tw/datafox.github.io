@@ -168,7 +168,12 @@ def main():
 
     markdown = build_markdown(matched, generated, now)
 
-    filename = now.strftime("%y%m%d_%H%M") + ".md"
+    existing = [
+        f for f in os.listdir(CONTENT_DIR)
+        if re.match(r"trending_ep\d+\.md", f)
+    ] if os.path.isdir(CONTENT_DIR) else []
+    next_ep = len(existing) + 1
+    filename = f"trending_ep{next_ep}.md"
     filepath = os.path.join(CONTENT_DIR, filename)
 
     os.makedirs(CONTENT_DIR, exist_ok=True)
