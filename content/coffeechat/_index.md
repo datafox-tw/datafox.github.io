@@ -50,8 +50,6 @@ draft: false
   <img src="/images/logo.png" width="120" style="border-radius: 20%; margin-bottom: 20px;">
 </div>
 
-這份英文翻譯我幫你抓了那種「半路出家但戰力點滿」的靈活感，同時保留了你那種「273 個月大」的幽默與對 AI 指標的質疑態度。
-
 ---
 
 ## 🦊 Let’s Chat with Datafox
@@ -82,7 +80,6 @@ I don't need you to buy me a coffee. Instead, if you find our session insightful
 
 ## 🗓 Book a Session
 
-<a href="[https://calendly.com/datafox-tw/30min](https://calendly.com/datafox-tw/30min)" class="btn" style="display: inline-block; background: #006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;">✨ Book a 1:1 Chat (Calendly)</a>
-
+<a href="https://calendly.com/datafox-tw/30min" class="btn" style="display: inline-block; background: #006bff; color: white; padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold; margin-top: 10px;">✨ Book 1-on-1 session on Calendly</a>
 
 </div>
