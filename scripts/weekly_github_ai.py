@@ -14,7 +14,7 @@ KEYWORDS = [
     'skill', 'skills',
 ]
 TOP_N = 15
-CONTENT_DIR = "content/posts"
+CONTENT_DIR = "content/news"
 TZ = ZoneInfo("Asia/Taipei")
 
 
