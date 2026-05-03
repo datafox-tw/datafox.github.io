@@ -7,6 +7,7 @@ layout: "home"
 
 params:
   author: "datafox & 柯宥圻 (Yuchi Ko)"
+  images: ["images/Open_graph_image.png"]
   description: "柯宥圻 (Yuchi Ko) 的個人網站 - 專注於 AI 系統、LLMOps、Agentic AI 與資料科學的研究與實踐。分享技術筆記、作品集與生活點滴。"
   keywords: ["AI Systems", "LLMOps", "Agentic AI", "Data Science", "RAG", "Software Engineering", "NTU", "柯宥圻", "Yuchi Ko"]
   ShowReadingTime: true
