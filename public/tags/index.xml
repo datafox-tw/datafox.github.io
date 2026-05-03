@@ -6,8 +6,120 @@
     <description>Recent content in Tags on datafox.tw</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI協作</title>
+      <link>https://datafox.tw/tags/ai%E5%8D%94%E4%BD%9C/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/ai%E5%8D%94%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI週報</title>
+      <link>https://datafox.tw/tags/ai%E9%80%B1%E5%A0%B1/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/ai%E9%80%B1%E5%A0%B1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DataEngineering</title>
+      <link>https://datafox.tw/tags/dataengineering/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/dataengineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EngineeringMindset</title>
+      <link>https://datafox.tw/tags/engineeringmindset/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/engineeringmindset/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gemini</title>
+      <link>https://datafox.tw/tags/gemini/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Actions</title>
+      <link>https://datafox.tw/tags/github-actions/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub趨勢</title>
+      <link>https://datafox.tw/tags/github%E8%B6%A8%E5%8B%A2/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/github%E8%B6%A8%E5%8B%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://datafox.tw/tags/llm/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM代理程式</title>
+      <link>https://datafox.tw/tags/llm%E4%BB%A3%E7%90%86%E7%A8%8B%E5%BC%8F/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/llm%E4%BB%A3%E7%90%86%E7%A8%8B%E5%BC%8F/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAG</title>
+      <link>https://datafox.tw/tags/rag/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/rag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>V0</title>
+      <link>https://datafox.tw/tags/v0/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/v0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vercel</title>
+      <link>https://datafox.tw/tags/vercel/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/vercel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>上下文與效率</title>
+      <link>https://datafox.tw/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E8%88%87%E6%95%88%E7%8E%87/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E4%B8%8A%E4%B8%8B%E6%96%87%E8%88%87%E6%95%88%E7%8E%87/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>多模態應用</title>
+      <link>https://datafox.tw/tags/%E5%A4%9A%E6%A8%A1%E6%85%8B%E6%87%89%E7%94%A8/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E5%A4%9A%E6%A8%A1%E6%85%8B%E6%87%89%E7%94%A8/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>提示工程</title>
+      <link>https://datafox.tw/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>自動化</title>
+      <link>https://datafox.tw/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/%E8%87%AA%E5%8B%95%E5%8C%96/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Podcast</title>
       <link>https://datafox.tw/tags/podcast/</link>
