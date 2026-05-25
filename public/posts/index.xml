@@ -4,10 +4,43 @@
     <title>Posts on datafox.tw</title>
     <link>https://datafox.tw/posts/</link>
     <description>Recent content in Posts on datafox.tw</description>
+    <image>
+      <title>datafox.tw</title>
+      <url>https://datafox.tw/images/Open_graph_image.png</url>
+      <link>https://datafox.tw/images/Open_graph_image.png</link>
+    </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>戳破「思考模型」的行銷幻覺：KV Cache 暴力美學與 Test-Time Compute 的真相</title>
+      <link>https://datafox.tw/posts/flash-vs-thinking-kv-cache-test-time-compute/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/flash-vs-thinking-kv-cache-test-time-compute/</guid>
+      <description>別再被 AI 馬屁精的行銷話術騙了。從底層架構看 Flash 與 Thinking 模型的差異，拆解 KV Cache 與 Test-Time Compute 究竟是如何運作的。</description>
+    </item>
+    <item>
+      <title>打破 Seq2Seq 迷思，從資訊理論看大模型的極致壓縮與湧現</title>
+      <link>https://datafox.tw/posts/decoder-only-vs-seq2seq-information-theory/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/decoder-only-vs-seq2seq-information-theory/</guid>
+      <description>跟上一篇相關，但是這裡從從資訊理論、KL 散度與有損壓縮的底層數學出發，拆解模型湧現能力的真實由來。</description>
+    </item>
+    <item>
+      <title>為什麼現在的 LLM 都是 Decoder-only？從 Seq2Seq 到 GPT 的架構演進與思考</title>
+      <link>https://datafox.tw/posts/decoder-only-vs-seq2seq-llm-architecture/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/decoder-only-vs-seq2seq-llm-architecture/</guid>
+      <description>在 Transformer 剛出來時，Seq2Seq 架構看似更為合理。但為什麼現在的主流 LLM (如 GPT) 卻全部走向 Decoder-only？本文探討 Decoder vs Seq2Seq 架構差異，以及 Next Token Prediction、Scaling Law 與模型湧現能力的關聯。</description>
+    </item>
+    <item>
+      <title>SEO心得：關於原本因小失大的故事，與我今天的補救</title>
+      <link>https://datafox.tw/posts/advanced-seo-settings/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/advanced-seo-settings/</guid>
+      <description>設定好了AI-SEO的robots.txt跟JSON-LD, 但是沒有設定最重要的url關鍵字跟description</description>
+    </item>
     <item>
       <title>VibeCoding 的代價：我用了 6 個 Gmail 帳號才換來的 RAG 平台</title>
       <link>https://datafox.tw/posts/rag-platform-gmail-struggle/</link>
