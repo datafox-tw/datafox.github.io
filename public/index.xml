@@ -14,6 +14,13 @@
     <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>2026/05/26 本週 GitHub AI 趨勢</title>
+      <link>https://datafox.tw/news/trending_ep4/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/news/trending_ep4/</guid>
+      <description>本週 GitHub Trending 前 15 名中篩選出的 AI/LLM 相關專案整理</description>
+    </item>
+    <item>
       <title>為什麼純技術文章在 AI 時代行不通？找回 E-E-A-T，重塑「個人實體」的護城河</title>
       <link>https://datafox.tw/posts/the-eeat-method-which-improves-datafox-tw/</link>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>

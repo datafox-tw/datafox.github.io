@@ -69,47 +69,78 @@ def generate_content(repos):
 
     client = genai.Client(api_key=api_key)
 
-    repos_json = json.dumps(
-        [{"name": r["name"], "description": r["description"], "language": r["language"]} for r in repos],
-        ensure_ascii=False,
-        indent=2,
-    )
+    intros = []
+    
+    print("  -> Generating intros one by one to avoid context fatigue...")
+    for r in repos:
+        repo_json = json.dumps(
+            {"name": r["name"], "description": r["description"], "language": r["language"]},
+            ensure_ascii=False,
+            indent=2,
+        )
+        
+        prompt = f"""你是一位 AI/LLM 技術社群的技術寫作者。
 
-    prompt = f"""你是一位 AI/LLM 技術社群的技術寫作者。
+以下是一個 GitHub Trending 上熱門的 AI 相關專案：
+{repo_json}
 
-以下是本週 GitHub Trending 前 {TOP_N} 名中篩選出的 AI 相關專案：
-{repos_json}
-
-請完成兩件事：
-
-1. 為每個專案寫 150～200 字的繁體中文介紹：
-   - 說明專案是什麼、解決什麼問題
-   - 為何在 AI/LLM 領域值得關注
-   - 口吻：技術部落客，自然有見地，不浮誇
-   - 直接開始段落，不要加標題
-
-2. 根據這批專案的整體主題，生成 4～6 個繁體中文標籤（一定要包含「GitHub趨勢」和「AI週報」）
+請為這個專案寫 150～200 字的繁體中文介紹：
+- 說明專案是什麼、解決什麼問題
+- 為何在 AI/LLM 領域值得關注
+- 口吻：技術部落客，自然有見地，不浮誇
+- 直接開始介紹段落，不要加標題
 
 嚴格用以下 JSON 格式回應，不要有任何其他文字：
 {{
-  "intros": [
-    {{"name": "repo名稱（與輸入完全一致）", "intro": "介紹文字"}},
-    ...
-  ],
+  "name": "{r['name']}",
+  "intro": "介紹文字"
+}}"""
+
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt,
+        )
+        
+        text = response.text.strip()
+        text = re.sub(r"^```(?:json)?\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+        
+        try:
+            res_json = json.loads(text)
+            intros.append(res_json)
+        except Exception as e:
+            print(f"    [Warning] Failed to parse JSON for {r['name']}: {e}")
+            intros.append({"name": r["name"], "intro": r["description"]})
+
+    print("  -> Generating overall tags...")
+    repo_names = [r["name"] for r in repos]
+    tags_prompt = f"""請根據以下本週 GitHub Trending AI 專案清單：
+{json.dumps(repo_names, ensure_ascii=False)}
+
+生成 4～6 個繁體中文標籤（一定要包含「GitHub趨勢」和「AI週報」）。
+嚴格用以下 JSON 格式回應，不要有任何其他文字：
+{{
   "tags": ["GitHub趨勢", "AI週報", "..."]
 }}"""
 
-    response = client.models.generate_content(
+    tags_response = client.models.generate_content(
         model="gemini-2.5-flash",
-        contents=prompt,
+        contents=tags_prompt,
     )
+    tags_text = tags_response.text.strip()
+    tags_text = re.sub(r"^```(?:json)?\s*", "", tags_text)
+    tags_text = re.sub(r"\s*```$", "", tags_text)
+    
+    try:
+        tags_json = json.loads(tags_text)
+        tags = tags_json.get("tags", ["GitHub趨勢", "AI週報"])
+    except Exception:
+        tags = ["GitHub趨勢", "AI週報"]
 
-    text = response.text.strip()
-    # strip markdown fences if model wraps in ```json
-    text = re.sub(r"^```(?:json)?\s*", "", text)
-    text = re.sub(r"\s*```$", "", text)
-
-    return json.loads(text)
+    return {
+        "intros": intros,
+        "tags": tags
+    }
 
 
 def build_markdown(repos, generated, now):

@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://datafox.tw/news/trending_ep4/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://datafox.tw/tags/aiseo/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/ai%E4%BB%A3%E7%90%86/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/ai%E9%80%B1%E5%A0%B1/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/branding/</loc>
@@ -17,6 +26,12 @@
     <loc>https://datafox.tw/tags/geo/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://datafox.tw/tags/github%E8%B6%A8%E5%8B%A2/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/llm%E6%87%89%E7%94%A8/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://datafox.tw/posts/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,7 +44,16 @@
     <loc>https://datafox.tw/tags/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://datafox.tw/news/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://datafox.tw/posts/the-eeat-method-which-improves-datafox-tw/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/%E7%A8%8B%E5%BC%8F%E7%A2%BC%E6%99%BA%E6%85%A7/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/%E9%82%8A%E7%B7%A3ai/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/ai%E6%9E%B6%E6%A7%8B/</loc>
@@ -113,28 +137,16 @@
     <loc>https://datafox.tw/tags/ai%E6%99%BA%E8%83%BD%E9%AB%94/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://datafox.tw/tags/ai%E9%80%B1%E5%A0%B1/</loc>
-    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/tags/github%E8%B6%A8%E5%8B%A2/</loc>
-    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://datafox.tw/tags/llm%E9%96%8B%E7%99%BC%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/%E6%95%88%E7%8E%87%E8%88%87%E6%88%90%E6%9C%AC%E5%84%AA%E5%8C%96/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://datafox.tw/news/</loc>
-    <lastmod>2026-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://datafox.tw/news/trending_ep2/</loc>
     <lastmod>2026-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/ai-agent/</loc>
-    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/tags/llm%E6%87%89%E7%94%A8/</loc>
     <lastmod>2026-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/nlp/</loc>
