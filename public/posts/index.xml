@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼純技術文章在 AI 時代行不通？找回 E-E-A-T，重塑「個人實體」的護城河</title>
+      <link>https://datafox.tw/posts/the-eeat-method-which-improves-datafox-tw/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/the-eeat-method-which-improves-datafox-tw/</guid>
+      <description>這讓我重新回過頭去檢視 Google 一直強調的 E-E-A-T（經驗、專業、權威、可信度），並驚覺自己在追求技術深度的過程中，不小心把文章裡最重要的「靈魂」給弄丟了。該怎麼辦？</description>
+    </item>
     <item>
       <title>戳破「思考模型」的行銷幻覺：KV Cache 暴力美學與 Test-Time Compute 的真相</title>
       <link>https://datafox.tw/posts/flash-vs-thinking-kv-cache-test-time-compute/</link>

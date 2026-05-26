@@ -73,3 +73,20 @@
 body.page-lang-en .lang-en { display: block; }
 body.page-lang-en .lang-zh { display: none; }
 </style>
+
+<!-- Time-based Dark Mode Default -->
+<script>
+    (function() {
+        const prefTheme = localStorage.getItem("pref-theme");
+        if (!prefTheme) {
+            const hour = new Date().getHours();
+            // Night time: 18:00 (6 PM) to 06:00 (6 AM)
+            const isNight = hour >= 18 || hour < 6;
+            if (isNight) {
+                document.body.classList.add('dark');
+            } else {
+                document.body.classList.remove('dark');
+            }
+        }
+    })();
+</script>

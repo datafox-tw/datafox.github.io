@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://datafox.tw/tags/ai%E6%9E%B6%E6%A7%8B/</loc>
-    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
+    <loc>https://datafox.tw/tags/aiseo/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/branding/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/eeat/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/geo/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/posts/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/single-source-of-truth/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/ssot/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/posts/the-eeat-method-which-improves-datafox-tw/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/ai%E6%9E%B6%E6%A7%8B/</loc>
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/kv-cache/</loc>
@@ -15,12 +42,6 @@
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/machine-learning/</loc>
-    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/posts/</loc>
-    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/tags/</loc>
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/test-time-compute/</loc>
