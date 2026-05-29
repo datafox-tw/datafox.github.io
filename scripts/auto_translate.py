@@ -16,9 +16,13 @@ def clean_body(body):
     # Remove existing lang-toggle shortcode if present
     body = re.sub(r'\{\{<\s*lang-toggle\s*>\}\}\s*\n?', '', body)
     
-    # If the body is already wrapped in <div class="lang-zh">...</div>, unwrap it
-    # We do a somewhat flexible regex to remove the opening and closing tags.
-    # Note: this assumes there's only one main wrapper.
+    # If the body contains <div class="lang-zh">, extract ONLY what's inside it.
+    # This prevents us from taking the fake <div class="lang-en"> content as well.
+    zh_match = re.search(r'<div class="lang-zh">(.*?)</div>', body, re.DOTALL)
+    if zh_match:
+        return zh_match.group(1).strip()
+    
+    # Otherwise, just strip the outer wrapper if it's there
     body = body.strip()
     if body.startswith('<div class="lang-zh">'):
         body = body[len('<div class="lang-zh">'):]
@@ -51,17 +55,27 @@ def process_file(filepath, client):
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
         
-    # Check if already has English translation
-    if '<div class="lang-en">' in content or 'class="lang-en"' in content:
-        return False
-        
-    print(f"Translating: {filepath}")
     frontmatter, body = split_frontmatter(content)
     
+    # Check if already has English translation
+    if '<div class="lang-en">' in body or 'class="lang-en"' in body:
+        # Check if it's a fake translation (contains too many Chinese characters)
+        en_match = re.search(r'<div class="lang-en">(.*?)</div>', body, re.DOTALL)
+        if en_match:
+            en_text = en_match.group(1)
+            zh_chars = len(re.findall(r'[\u4e00-\u9fff]', en_text))
+            if zh_chars <= 20:
+                # Less than 20 Chinese characters, probably a real English translation. Skip.
+                return False
+            # Otherwise, it's a fake translation. We will proceed to re-translate it.
+        else:
+            return False
+            
     if not body.strip():
         print(f"  -> Empty body, skipping.")
         return False
-
+        
+    print(f"Translating: {filepath}")
     clean_zh = clean_body(body)
     
     # Translate
@@ -105,7 +119,6 @@ def main():
     
     translated_count = 0
     for filepath in md_files:
-        # Skip some files if necessary (e.g. _index.md might need translation too, but let's allow it)
         success = process_file(filepath, client)
         if success:
             translated_count += 1
