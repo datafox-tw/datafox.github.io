@@ -1,6 +1,6 @@
 ---
-title: "關於我 | About Me"
-description: "柯宥圻 YU-CHI (Yuchi) KO - AI Systems & LLMOps · Agentic AI · Software Engineer"
+title: "About Me"
+description: "YU-CHI (Yuchi) KO - AI Systems & LLMOps · Agentic AI · Software Engineer"
 date: 2026-03-02
 draft: false
 hideMeta: true

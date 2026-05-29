@@ -1,10 +1,10 @@
 ---
-title: "2026/05/02 本週 GitHub AI 趨勢"
+title: "2026/05/02 This Week's GitHub AI Trends"
 date: 2026-05-02
 draft: false
 tags: ["GitHub趨勢", "AI週報", "LLM代理程式", "上下文與效率", "提示工程", "多模態應用"]
 ShowToc: true
-description: "[初版測試]本週 GitHub Trending 前 15 名中篩選出的 AI/LLM 相關專案整理"
+description: "Selected AI/LLM projects from this week's GitHub Trending Top 15."
 ---
 
 From the top 15 projects on GitHub Trending this week, **11 AI/LLM-related projects** have been selected:

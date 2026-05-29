@@ -1,6 +1,6 @@
 ---
-title: "和Datafox聊聊吧"
-description: "在這裡，我會分享我做coffee chat的契機，以及一些跟我聊天的人的範例"
+title: "Chat with Datafox"
+description: "Here, I'll share what led me to do coffee chats and examples of people I've chatted with."
 date: 2026-04-22
 draft: false
 ---

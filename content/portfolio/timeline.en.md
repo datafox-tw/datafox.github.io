@@ -1,6 +1,6 @@
 ---
-title: "📚 專案時間軸導覽 (Project Timeline)"
-description: "依照時間軸整理我在不同階段的修課與專案實作，紀錄我從程式開發到系統設計的演化軌跡。"
+title: "Project Timeline Navigation"
+description: "Documenting my evolution from software development to system design through chronologically organized coursework and projects."
 date: 2026-03-02
 draft: false
 hideMeta: true

@@ -1,5 +1,5 @@
 ---
-title: "datafox | Yu-Chi Ko (柯宥圻)"
+title: "datafox | Yu-Chi Ko"
 ---
 
 <div align="center">

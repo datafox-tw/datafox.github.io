@@ -1,6 +1,6 @@
 ---
-title: "Datafox 的 Podcast List"
-description: "人生 Release Note - Datafox職涯模擬實驗室"
+title: "Datafox's Podcast List"
+description: "Life's Release Note - Datafox Career Simulation Lab"
 date: 2026-04-22
 draft: false
 ---

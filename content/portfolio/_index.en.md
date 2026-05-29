@@ -1,6 +1,6 @@
 ---
-title: "作品集導覽 (Portfolio Guide)"
-description: "我的背景橫跨財務分析、量化建模與系統導向的軟體開發，這裡呈現我的技術成長與專案路徑。"
+title: "Portfolio Guide"
+description: "My background spans financial analysis, quantitative modeling, and system-oriented software development, showcasing my technical growth and project journey."
 date: 2026-03-02
 draft: false
 hideMeta: true
