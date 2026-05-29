@@ -28,23 +28,30 @@ def main():
         frontmatter = match.group(1)
         body = match.group(2)
         
-        # Extract zh and en
-        zh_match = re.search(r'<div class="lang-zh">(.*?)</div>', body, re.DOTALL)
-        en_match = re.search(r'<div class="lang-en">(.*?)</div>', body, re.DOTALL)
-        
+        # Extract zh and en using safe splitting
         clean_zh = ""
-        if zh_match:
-            clean_zh = zh_match.group(1).strip()
-        else:
-            # If no lang-zh block, try removing lang-toggle manually
-            clean_zh = re.sub(r'\{\{<\s*lang-toggle\s*>\}\}\s*\n?', '', body).strip()
-            # Remove any standalone lang-en blocks just in case
-            clean_zh = re.sub(r'<div class="lang-en">.*?</div>', '', clean_zh, flags=re.DOTALL).strip()
-            clean_zh = re.sub(r'<div class="lang-zh">.*?</div>', '', clean_zh, flags=re.DOTALL).strip()
-
         en_text = ""
-        if en_match:
-            en_text = en_match.group(1).strip()
+        
+        parts = body.split('<div class="lang-en">')
+        zh_part = parts[0]
+        if len(parts) > 1:
+            en_part = parts[1]
+        else:
+            en_part = ""
+
+        # Clean zh_part
+        if '<div class="lang-zh">' in zh_part:
+            zh_part = zh_part.split('<div class="lang-zh">', 1)[1]
+            if zh_part.strip().endswith('</div>'):
+                zh_part = zh_part.strip()[:-6]
+        
+        clean_zh = re.sub(r'\{\{<\s*lang-toggle\s*>\}\}\s*\n?', '', zh_part).strip()
+        
+        # Clean en_part
+        if en_part.strip().endswith('</div>'):
+            en_text = en_part.strip()[:-6].strip()
+        else:
+            en_text = en_part.strip()
             
         # Check if en_text is valid (not fake)
         is_valid_en = False

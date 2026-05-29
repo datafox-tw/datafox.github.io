@@ -2,316 +2,316 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>datafox | Yu-Chi Ko (柯宥圻) on datafox.tw</title>
-    <link>https://datafox.tw/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in datafox | Yu-Chi Ko (柯宥圻) on datafox.tw</description>
     <image>
       <title>datafox.tw</title>
-      <url>https://datafox.tw/images/Open_graph_image.png</url>
-      <link>https://datafox.tw/images/Open_graph_image.png</link>
+      <url>http://localhost:1313/images/Open_graph_image.png</url>
+      <link>http://localhost:1313/images/Open_graph_image.png</link>
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://datafox.tw/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用母語寫作，讓 AI 帶我的文章走向世界：全站自動雙語化實踐</title>
-      <link>https://datafox.tw/posts/auto-translation-i18n-gemini/</link>
+      <link>http://localhost:1313/posts/auto-translation-i18n-gemini/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/auto-translation-i18n-gemini/</guid>
+      <guid>http://localhost:1313/posts/auto-translation-i18n-gemini/</guid>
       <description>透過 GitHub Actions 與 Gemini API，在不改變創作習慣的前提下，讓全站文章自動具備中英雙語切換功能。</description>
     </item>
     <item>
       <title>從 Geoguessr 的「找膠帶」玄學，看深度學習的捷徑學習（Shortcut Learning）迷思</title>
-      <link>https://datafox.tw/posts/geoguessr-and-generalization/</link>
+      <link>http://localhost:1313/posts/geoguessr-and-generalization/</link>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/geoguessr-and-generalization/</guid>
+      <guid>http://localhost:1313/posts/geoguessr-and-generalization/</guid>
       <description>從 Geoguessr 的 Meta 策略出發，探討機器學習中殺傷力極強卻難以察覺的 Shortcut Learning 問題。</description>
     </item>
     <item>
       <title>2026/05/26 本週 GitHub AI 趨勢</title>
-      <link>https://datafox.tw/news/trending_ep4/</link>
+      <link>http://localhost:1313/news/trending_ep4/</link>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/news/trending_ep4/</guid>
+      <guid>http://localhost:1313/news/trending_ep4/</guid>
       <description>本週 GitHub Trending 前 15 名中篩選出的 AI/LLM 相關專案整理</description>
     </item>
     <item>
       <title>為什麼純技術文章在 AI 時代行不通？找回 E-E-A-T，重塑「個人實體」的護城河</title>
-      <link>https://datafox.tw/posts/the-eeat-method-which-improves-datafox-tw/</link>
+      <link>http://localhost:1313/posts/the-eeat-method-which-improves-datafox-tw/</link>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/the-eeat-method-which-improves-datafox-tw/</guid>
+      <guid>http://localhost:1313/posts/the-eeat-method-which-improves-datafox-tw/</guid>
       <description>這讓我重新回過頭去檢視 Google 一直強調的 E-E-A-T（經驗、專業、權威、可信度），並驚覺自己在追求技術深度的過程中，不小心把文章裡最重要的「靈魂」給弄丟了。該怎麼辦？</description>
     </item>
     <item>
       <title>戳破「思考模型」的行銷幻覺：KV Cache 暴力美學與 Test-Time Compute 的真相</title>
-      <link>https://datafox.tw/posts/flash-vs-thinking-kv-cache-test-time-compute/</link>
+      <link>http://localhost:1313/posts/flash-vs-thinking-kv-cache-test-time-compute/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/flash-vs-thinking-kv-cache-test-time-compute/</guid>
+      <guid>http://localhost:1313/posts/flash-vs-thinking-kv-cache-test-time-compute/</guid>
       <description>別再被 AI 馬屁精的行銷話術騙了。從底層架構看 Flash 與 Thinking 模型的差異，拆解 KV Cache 與 Test-Time Compute 究竟是如何運作的。</description>
     </item>
     <item>
       <title>ver 1.3.1 理科腦踢館大會！當資料科學遇上塔羅牌：算命也是一種 Overfitting 嗎？ feat. 塔羅大師 Jun</title>
-      <link>https://datafox.tw/podcast/ver-1-3-2/</link>
+      <link>http://localhost:1313/podcast/ver-1-3-2/</link>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/podcast/ver-1-3-2/</guid>
+      <guid>http://localhost:1313/podcast/ver-1-3-2/</guid>
       <description>這集我們不談搞錢，來談點「玄」的！用資料科學的邏輯無情拆解面相、塔羅與 AI 算命，一場理科腦與神祕學宇宙的激烈碰撞。</description>
     </item>
     <item>
       <title>打破 Seq2Seq 迷思，從資訊理論看大模型的極致壓縮與湧現</title>
-      <link>https://datafox.tw/posts/decoder-only-vs-seq2seq-information-theory/</link>
+      <link>http://localhost:1313/posts/decoder-only-vs-seq2seq-information-theory/</link>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/decoder-only-vs-seq2seq-information-theory/</guid>
+      <guid>http://localhost:1313/posts/decoder-only-vs-seq2seq-information-theory/</guid>
       <description>跟上一篇相關，但是這裡從從資訊理論、KL 散度與有損壓縮的底層數學出發，拆解模型湧現能力的真實由來。</description>
     </item>
     <item>
       <title>ver 1.3.0 職涯 Debug：誰說文科生碰不了錢？政治系降維打擊殺入財富管顧圈！ feat. 盈爍顧問 Jun</title>
-      <link>https://datafox.tw/podcast/ver-1-3-0/</link>
+      <link>http://localhost:1313/podcast/ver-1-3-0/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/podcast/ver-1-3-0/</guid>
+      <guid>http://localhost:1313/podcast/ver-1-3-0/</guid>
       <description>和 Jun 聊聊政治系出路的現實、在中國實習見證的極致內卷，以及跨域成為財務顧問的非典型職涯路徑。</description>
     </item>
     <item>
       <title>2026/05/17 本週 GitHub AI 趨勢</title>
-      <link>https://datafox.tw/news/trending_ep3/</link>
+      <link>http://localhost:1313/news/trending_ep3/</link>
       <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/news/trending_ep3/</guid>
+      <guid>http://localhost:1313/news/trending_ep3/</guid>
       <description>本週 GitHub Trending 前 15 名中篩選出的 AI/LLM 相關專案整理</description>
     </item>
     <item>
       <title>2026/05/14 本週 GitHub AI 趨勢</title>
-      <link>https://datafox.tw/news/trending_ep2/</link>
+      <link>http://localhost:1313/news/trending_ep2/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/news/trending_ep2/</guid>
+      <guid>http://localhost:1313/news/trending_ep2/</guid>
       <description>本週 GitHub Trending 前 15 名中篩選出的 AI/LLM 相關專案整理</description>
     </item>
     <item>
       <title>為什麼現在的 LLM 都是 Decoder-only？從 Seq2Seq 到 GPT 的架構演進與思考</title>
-      <link>https://datafox.tw/posts/decoder-only-vs-seq2seq-llm-architecture/</link>
+      <link>http://localhost:1313/posts/decoder-only-vs-seq2seq-llm-architecture/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/decoder-only-vs-seq2seq-llm-architecture/</guid>
+      <guid>http://localhost:1313/posts/decoder-only-vs-seq2seq-llm-architecture/</guid>
       <description>在 Transformer 剛出來時，Seq2Seq 架構看似更為合理。但為什麼現在的主流 LLM (如 GPT) 卻全部走向 Decoder-only？本文探討 Decoder vs Seq2Seq 架構差異，以及 Next Token Prediction、Scaling Law 與模型湧現能力的關聯。</description>
     </item>
     <item>
       <title>Ver 1.2.1 漏網之魚：吃素的狐狸與大天才 Joyce 的錄音室幹話日常（本集為專屬特典）</title>
-      <link>https://datafox.tw/podcast/ver-1-2-1/</link>
+      <link>http://localhost:1313/podcast/ver-1-2-1/</link>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/podcast/ver-1-2-1/</guid>
+      <guid>http://localhost:1313/podcast/ver-1-2-1/</guid>
       <description>「這輩子我都不會再聽到這段錄音！」—— 說好的不放出來呢？</description>
     </item>
     <item>
       <title>ver 1.2.0 職涯 Debug：連點成線的創投之路，財金系的非典型探索 feat. Joyce</title>
-      <link>https://datafox.tw/podcast/ver-1-2-0/</link>
+      <link>http://localhost:1313/podcast/ver-1-2-0/</link>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/podcast/ver-1-2-0/</guid>
+      <guid>http://localhost:1313/podcast/ver-1-2-0/</guid>
       <description>和大學同班同學 Joyce 聊聊在財金系的迷惘、經歷 NLP 新創與銀行法金的震撼教育，以及如何透過 Coffee Chat 拿到 VC 創投的門票。</description>
     </item>
     <item>
       <title>SEO心得：關於原本因小失大的故事，與我今天的補救</title>
-      <link>https://datafox.tw/posts/advanced-seo-settings/</link>
+      <link>http://localhost:1313/posts/advanced-seo-settings/</link>
       <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/advanced-seo-settings/</guid>
+      <guid>http://localhost:1313/posts/advanced-seo-settings/</guid>
       <description>設定好了AI-SEO的robots.txt跟JSON-LD, 但是沒有設定最重要的url關鍵字跟description</description>
     </item>
     <item>
       <title>2026/05/02 本週 GitHub AI 趨勢</title>
-      <link>https://datafox.tw/news/trending_ep1/</link>
+      <link>http://localhost:1313/news/trending_ep1/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/news/trending_ep1/</guid>
+      <guid>http://localhost:1313/news/trending_ep1/</guid>
       <description>[初版測試]本週 GitHub Trending 前 15 名中篩選出的 AI/LLM 相關專案整理</description>
     </item>
     <item>
       <title>VibeCoding 的代價：我用了 6 個 Gmail 帳號才換來的 RAG 平台</title>
-      <link>https://datafox.tw/posts/rag-platform-gmail-struggle/</link>
+      <link>http://localhost:1313/posts/rag-platform-gmail-struggle/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/rag-platform-gmail-struggle/</guid>
+      <guid>http://localhost:1313/posts/rag-platform-gmail-struggle/</guid>
       <description>一次關於「純Vibe coding」的慘痛教訓</description>
     </item>
     <item>
       <title>讓網站自己更新：用 GitHub Actions &#43; Gemini 做週報自動化</title>
-      <link>https://datafox.tw/posts/github-actions-gemini-weekly-report-automation/</link>
+      <link>http://localhost:1313/posts/github-actions-gemini-weekly-report-automation/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/github-actions-gemini-weekly-report-automation/</guid>
+      <guid>http://localhost:1313/posts/github-actions-gemini-weekly-report-automation/</guid>
       <description>一次關於靜態網頁自動化、AI 協作方式、以及「知道能做到」這件事的反思</description>
     </item>
     <item>
       <title>[ENG-ver Available] Coffee Chat 聊什麼？範例一：一場關於跨國轉職、Google 面試與 AI 幻覺的真實紀錄</title>
-      <link>https://datafox.tw/coffeechat/ver-1-1-0/</link>
+      <link>http://localhost:1313/coffeechat/ver-1-1-0/</link>
       <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/coffeechat/ver-1-1-0/</guid>
+      <guid>http://localhost:1313/coffeechat/ver-1-1-0/</guid>
       <description>透過與一位英國碩士畢業生的對話，拆解台灣 AI 就業市場、Google 實習流程，並順便給盲目依賴 AI 摘要的人上了一課。</description>
     </item>
     <item>
       <title>NTUAI - AIcohol 活動圓滿落幕</title>
-      <link>https://datafox.tw/posts/ntuai-aicolhol-recap/</link>
+      <link>http://localhost:1313/posts/ntuai-aicolhol-recap/</link>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/ntuai-aicolhol-recap/</guid>
+      <guid>http://localhost:1313/posts/ntuai-aicolhol-recap/</guid>
       <description>「AIcohol」是NTUAI（國立臺灣大學 人工智慧應用社）首次舉辦的60人「微醺聊職涯 AI Round Table」活動。這場成功落幕的活動匯聚8位重磅講者，深入探討AI職涯發展、創新創業與落地應用，並首創「AI侍酒師」智慧推薦主題。活動不僅促進跨領域交流，更展現台灣對AI社群互動的渴望。</description>
     </item>
     <item>
       <title>為什麼「多說話」的 AI Agent，在金融場景可能是場災難？</title>
-      <link>https://datafox.tw/posts/verbose-ai-agent-financial-risk/</link>
+      <link>http://localhost:1313/posts/verbose-ai-agent-financial-risk/</link>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/verbose-ai-agent-financial-risk/</guid>
+      <guid>http://localhost:1313/posts/verbose-ai-agent-financial-risk/</guid>
       <description>探討為何在普遍認為多步推理與多代理架構能提升AI表現的背景下，「多說話」的AI Agent在金融場景反而可能是場災難。本文深入分析，對於極致追求精確度的量化金融驗證，如JPMorgan研究中僅46%的Pass@1準確率，凸顯出多對話反而降低成效。揭示低正確率與「反思」陷阱如何限制金融AI的應用。</description>
     </item>
     <item>
       <title>為什麼我要努力寫機器學習作業？哄騙自己乖乖努力的一個證明題</title>
-      <link>https://datafox.tw/posts/ml-homework-motivation-proof/</link>
+      <link>http://localhost:1313/posts/ml-homework-motivation-proof/</link>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/ml-homework-motivation-proof/</guid>
+      <guid>http://localhost:1313/posts/ml-homework-motivation-proof/</guid>
       <description>面對機器學習作業的龐大壓力與等待模型收斂的漫長時光，你是否也曾質疑努力的意義？本文探討在AI浪潮下，研究生如何在瑣碎閒暇中保持專注、應對分心，並克服孤軍奮戰的感受。透過誠實剖析，作者分享了在訓練模型、閱讀論文、處理數據到撰寫報告的過程中，如何證明自己的努力並從中找到價值，鼓勵讀者在快節奏的學術工作中找到屬於自己的節奏與意義。</description>
     </item>
     <item>
       <title>永久版「免費coffee chat」宣言</title>
-      <link>https://datafox.tw/posts/permanent-free-coffee-chat-manifesto/</link>
+      <link>http://localhost:1313/posts/permanent-free-coffee-chat-manifesto/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/permanent-free-coffee-chat-manifesto/</guid>
+      <guid>http://localhost:1313/posts/permanent-free-coffee-chat-manifesto/</guid>
       <description>厭倦AI圈的馬屁文化？這裡有永久免費的Coffee Chat，助你破解職涯迷霧、深度交流AI技術與人生。不只提供真誠對話，作者也擅長將複雜技術轉譯為公眾演講、工作坊與顧問諮詢服務，無論企業導入RAG系統或技術團隊打造Agentic AI，都能獲得實戰地圖，共同探索AI潛力。</description>
     </item>
     <item>
       <title>從「文字接龍」到「無所不能的LLM大人」：那些消失在 Bug 裡的對話記錄</title>
-      <link>https://datafox.tw/posts/llm-bugs-lost-conversations/</link>
+      <link>http://localhost:1313/posts/llm-bugs-lost-conversations/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/llm-bugs-lost-conversations/</guid>
+      <guid>http://localhost:1313/posts/llm-bugs-lost-conversations/</guid>
       <description>探索作者與ChatGPT長達一年多的人機協作歷程，從早期作為「文字接龍」般的「情緒勒索檢測器」輔助工具，到如今無所不能的LLM大人。本文回顧了那些在備份功能中消失的對話紀錄，揭示了作者對AI態度的轉變，以及從最初的不屑一顧，到現在看見大型語言模型潛力的有趣演變。</description>
     </item>
     <item>
       <title>ver 1.1.1 從操盤聊到西班牙，和歐洲生活相關的經驗大公開 feat. Daniel</title>
-      <link>https://datafox.tw/podcast/ver-1-1-1/</link>
+      <link>http://localhost:1313/podcast/ver-1-1-1/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/podcast/ver-1-1-1/</guid>
+      <guid>http://localhost:1313/podcast/ver-1-1-1/</guid>
       <description>從股市一路聊到歐洲生活：西班牙夜店、小偷實錄、冰島環島花費、捷克工簽與阿聯酋移民話題全收錄。</description>
     </item>
     <item>
       <title>ver 1.1.0 務實的股票操盤手？從興趣到職業的路 feat. Daniel</title>
-      <link>https://datafox.tw/podcast/ver-1-1-0/</link>
+      <link>http://localhost:1313/podcast/ver-1-1-0/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/podcast/ver-1-1-0/</guid>
+      <guid>http://localhost:1313/podcast/ver-1-1-0/</guid>
       <description>和 Daniel 聊讀財金系的理想與現實、投資公司工作的酸甜苦辣，以及想成為交易員該具備的條件。</description>
     </item>
     <item>
       <title>拒絕 AI 的「彩色稀泥」：六頂思考帽作為人機協作的新通訊協定</title>
-      <link>https://datafox.tw/posts/six-thinking-hats-human-ai-protocol/</link>
+      <link>http://localhost:1313/posts/six-thinking-hats-human-ai-protocol/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/six-thinking-hats-human-ai-protocol/</guid>
+      <guid>http://localhost:1313/posts/six-thinking-hats-human-ai-protocol/</guid>
       <description>探討 AI 常給出「彩色稀泥」般平庸回答的困境，本文提出將「六頂思考帽」重新定義為人機協作的新通訊協定。透過白帽、紅帽、黑帽、黃帽、綠帽、藍帽的平行思考框架，引導 AI 針對數據、情感、風險、價值、創意與流程進行分類思考，有效提升人機溝通品質，擺脫空泛回應，達成更具深度的決策討論。</description>
     </item>
     <item>
       <title>咒語的終結：為什麼 2023 年的「提示工程師」神話是一場集體幻覺？</title>
-      <link>https://datafox.tw/posts/prompt-engineering-myth-end/</link>
+      <link>http://localhost:1313/posts/prompt-engineering-myth-end/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/prompt-engineering-myth-end/</guid>
+      <guid>http://localhost:1313/posts/prompt-engineering-myth-end/</guid>
       <description>2023年曾被譽為高薪賽道的「提示工程師」如今神話破滅？本文作者回顧當年盛況，解析為何這項技能曾被視為AI時代的黃金機會。原來，撰寫優質Prompt並非天賦，而是早期模型缺陷下的產物，透過手動「特徵校準」來彌補模型對語義理解的不足。深入剖析Prompt工程師從神壇跌落的真實原因，揭示未來AI發展方向。</description>
     </item>
     <item>
       <title>網站改版紀錄：踩坑與修復中英文切換功能</title>
-      <link>https://datafox.tw/posts/website-i18n-switch-fix/</link>
+      <link>http://localhost:1313/posts/website-i18n-switch-fix/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/website-i18n-switch-fix/</guid>
+      <guid>http://localhost:1313/posts/website-i18n-switch-fix/</guid>
       <description>網站改版想加入中英文切換功能，卻意外踩了 AI 生成全域 JavaScript 的坑。本文紀錄了從內容隱藏、排版錯亂到畫面閃爍等問題，並分享如何透過優化 Hugo Shortcode，完美修復多語系網站的切換邏輯與用戶體驗。</description>
     </item>
     <item>
       <title>請AI幫我增加導航搜索列</title>
-      <link>https://datafox.tw/posts/ai-navigation-search-bar/</link>
+      <link>http://localhost:1313/posts/ai-navigation-search-bar/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/ai-navigation-search-bar/</guid>
+      <guid>http://localhost:1313/posts/ai-navigation-search-bar/</guid>
       <description>深入了解如何在您的Hugo網站上實作一個高效導航搜索列！本文詳細解析作者如何整合精確比對、依日期排序與無縫介面，透過修改hugo.yaml、index.json及header.html，打造出具備質感設計的站內搜尋功能，大幅提升訪客的瀏覽體驗。</description>
     </item>
     <item>
       <title>觀影心得：飛吧！熊鷹</title>
-      <link>https://datafox.tw/posts/movie-review-fly-eagle/</link>
+      <link>http://localhost:1313/posts/movie-review-fly-eagle/</link>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/movie-review-fly-eagle/</guid>
+      <guid>http://localhost:1313/posts/movie-review-fly-eagle/</guid>
       <description>深入紀錄片《飛吧！熊鷹》的觀影心得，揭開台灣猛禽熊鷹的神秘面紗。不僅探討熊鷹在生態系中的關鍵地位，也直面牠們面臨的原住民傳統盜獵、棲地破碎等生存挑戰。文中更分享了研究人員為守護這群空中霸主，從文化衝突到艱辛野外追蹤的保育歷程與動人故事。</description>
     </item>
     <item>
       <title>連頂會論文都逃不過的「小學生算術」檢查 🔍</title>
-      <link>https://datafox.tw/posts/elementary-math-paper-check/</link>
+      <link>http://localhost:1313/posts/elementary-math-paper-check/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/elementary-math-paper-check/</guid>
+      <guid>http://localhost:1313/posts/elementary-math-paper-check/</guid>
       <description>一篇ACL頂會論文竟出現連審稿人都沒發現的算術錯誤，其號稱評測「金融推理」的能力，卻連加減法都算錯。作者分享發現經過，強調即使頂尖研究也可能犯錯。啟發我們要批判性思考，不盲信權威，並指出嚴謹的驗證框架對AI及高風險領域的重要性。</description>
     </item>
     <item>
       <title>從ㄅ級分到ㄦ級分銳評巴賽隆納旅遊行為</title>
-      <link>https://datafox.tw/posts/barcelona-tourism-behavior-review/</link>
+      <link>http://localhost:1313/posts/barcelona-tourism-behavior-review/</link>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/barcelona-tourism-behavior-review/</guid>
+      <guid>http://localhost:1313/posts/barcelona-tourism-behavior-review/</guid>
       <description>這份「巴賽隆納生存戰力清單」為你揭露最真實的旅遊體驗！從如何避開小偷、找到乾淨廁所，到必訪景點與美食，這份銳評分享作者半年血淚經驗，教你聰明玩轉巴賽隆納，讓你的期望值與實際效用都能拉滿。</description>
     </item>
     <item>
       <title>關於我和Linkedin的故事以及推薦大學生如何使用Linkedin</title>
-      <link>https://datafox.tw/posts/linkedin-university-student-guide/</link>
+      <link>http://localhost:1313/posts/linkedin-university-student-guide/</link>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/linkedin-university-student-guide/</guid>
+      <guid>http://localhost:1313/posts/linkedin-university-student-guide/</guid>
       <description>從一個大學生視角，作者分享自己經營 LinkedIn 的真實故事與心得。想知道如何有效利用 LinkedIn 建立職涯起點嗎？本文將提供大學生實用建議，包含即使經驗不多也能打造吸睛檔案、聰明設定職涯關鍵字，以及如何大方拓展人脈，為你的專業形象與未來發展超前部署。</description>
     </item>
     <item>
       <title>關於台北市市長選舉的觀察（之後附上數據）</title>
-      <link>https://datafox.tw/posts/taipei-mayoral-election-data-analysis/</link>
+      <link>http://localhost:1313/posts/taipei-mayoral-election-data-analysis/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/taipei-mayoral-election-data-analysis/</guid>
+      <guid>http://localhost:1313/posts/taipei-mayoral-election-data-analysis/</guid>
       <description>本文深入觀察台北市市長選舉，剖析沈伯洋從專業形象轉為「抗中保台」政黨標籤後，在中間選民間的選情困境。同時分析蔣萬安如何巧妙運用「不沾鍋」策略，以穩健姿態鞏固市政基礎與個人好感度。文章進一步探討民進黨在台北市的長期經營挑戰，並評估未來選戰的可能走向與勝負關鍵。</description>
     </item>
     <item>
       <title>Datafox的Podcast準備開張啦</title>
-      <link>https://datafox.tw/posts/datafox-podcast-launch/</link>
+      <link>http://localhost:1313/posts/datafox-podcast-launch/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/datafox-podcast-launch/</guid>
+      <guid>http://localhost:1313/posts/datafox-podcast-launch/</guid>
       <description>Datafox全新Podcast節目《人生 Beta 版》即將啟動！除了部落格，Datafox現在將透過聲音分享人生路上的觀察、迷惘與修正。節目將訪談22-24歲青年，聊聊大學與職場的探索故事，作為寫給過去自己的錄音信，希望能為正在人生迷航的你提供共鳴與陪伴。</description>
     </item>
     <item>
       <title>從板橋到 Multi-Agent：關於接下來的一點想像</title>
-      <link>https://datafox.tw/posts/multi-agent-future-vision/</link>
+      <link>http://localhost:1313/posts/multi-agent-future-vision/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/multi-agent-future-vision/</guid>
+      <guid>http://localhost:1313/posts/multi-agent-future-vision/</guid>
       <description>關於板橋 cool Team 以及如何用 Gemini 構建故障分析的 Multi-Agent System。</description>
     </item>
     <item>
       <title>職涯博覽會心得與ntuai</title>
-      <link>https://datafox.tw/posts/ntuai-career-fair-insights/</link>
+      <link>http://localhost:1313/posts/ntuai-career-fair-insights/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/ntuai-career-fair-insights/</guid>
+      <guid>http://localhost:1313/posts/ntuai-career-fair-insights/</guid>
       <description>這篇文章分享了作者對軟體工程與AI的熱情，強調在科技浪潮下，跨領域學習與多模型思維的重要性。無論你是文組背景或對AI感到迷茫，作者鼓勵你善用LLM降低探索門檻。文末更詳細介紹NTU AI Club，提供完整的AI技術學習路線圖，助你建立基礎能力、掌握ML與LLM應用，甚至爭取實習機會。</description>
     </item>
     <item>
       <title>email位置更換通知</title>
-      <link>https://datafox.tw/posts/email-change-notification/</link>
+      <link>http://localhost:1313/posts/email-change-notification/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/email-change-notification/</guid>
+      <guid>http://localhost:1313/posts/email-change-notification/</guid>
       <description>Datafox 發布重要通知！由於 `contact@datafox.tw` 信箱暫時發生異常，團隊已將所有聯絡 email 地址全面更換為 `datafox.tw@gmail.com`。請您使用這個新信箱與我們聯繫，確保資訊交流順暢無礙。</description>
     </item>
     <item>
       <title>Review Notes: 對葛委員 2026 年 arXiv 論文之方法論與引用疑慮</title>
-      <link>https://datafox.tw/posts/arxiv-paper-methodology-citation-concerns/</link>
+      <link>http://localhost:1313/posts/arxiv-paper-methodology-citation-concerns/</link>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/arxiv-paper-methodology-citation-concerns/</guid>
+      <guid>http://localhost:1313/posts/arxiv-paper-methodology-citation-concerns/</guid>
       <description>一篇對 arXiv 預印本的學術評論，聚焦於引用驗證、方法論限制及 AI 應用相關議題</description>
     </item>
     <item>
       <title>datafox 竣工後記：2026 個人網站實戰指南｜從「想要一個網站」到真正上線</title>
-      <link>https://datafox.tw/posts/hugo-personal-site-guide/</link>
+      <link>http://localhost:1313/posts/hugo-personal-site-guide/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/hugo-personal-site-guide/</guid>
+      <guid>http://localhost:1313/posts/hugo-personal-site-guide/</guid>
       <description>完整記錄我如何從購買網域、Hugo 建站、AI SEO 設計到專業工具整合，打造 datafox.tw 的實戰流程。</description>
     </item>
     <item>
       <title>📚 專案時間軸導覽 (Project Timeline)</title>
-      <link>https://datafox.tw/portfolio/timeline/</link>
+      <link>http://localhost:1313/portfolio/timeline/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/portfolio/timeline/</guid>
+      <guid>http://localhost:1313/portfolio/timeline/</guid>
       <description>依照時間軸整理我在不同階段的修課與專案實作，紀錄我從程式開發到系統設計的演化軌跡。</description>
     </item>
     <item>
       <title>關於AI 狐狸 | About AI Fox</title>
-      <link>https://datafox.tw/posts/ai-fox-overview/</link>
+      <link>http://localhost:1313/posts/ai-fox-overview/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/ai-fox-overview/</guid>
+      <guid>http://localhost:1313/posts/ai-fox-overview/</guid>
       <description>AI 狐狸，柯宥圻的思考外掛</description>
     </item>
     <item>
       <title>datafox.tw : 緣起🦊</title>
-      <link>https://datafox.tw/posts/datafox-genesis-story/</link>
+      <link>http://localhost:1313/posts/datafox-genesis-story/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/datafox-genesis-story/</guid>
+      <guid>http://localhost:1313/posts/datafox-genesis-story/</guid>
       <description>&lt;p&gt;Hi!&lt;/p&gt;
 &lt;p&gt;這樣的話，感覺要寫一篇緣起。&lt;/p&gt;
 &lt;p&gt;這一切其實來的蠻快的，我一不小心就刷卡買了這個網域，連datafox這個ip都取得相當的靈性。&lt;/p&gt;
@@ -332,9 +332,9 @@
     </item>
     <item>
       <title>歡迎來到 datafox.tw 🦊</title>
-      <link>https://datafox.tw/posts/datafox-website-welcome/</link>
+      <link>http://localhost:1313/posts/datafox-website-welcome/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/posts/datafox-website-welcome/</guid>
+      <guid>http://localhost:1313/posts/datafox-website-welcome/</guid>
       <description>這裡是狐狸柯柯的星露谷資料小村莊</description>
     </item>
   </channel>
