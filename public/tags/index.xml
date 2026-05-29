@@ -11,8 +11,78 @@
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://datafox.tw/tags/ai/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogging</title>
+      <link>https://datafox.tw/tags/blogging/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/blogging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gemini</title>
+      <link>https://datafox.tw/tags/gemini/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/gemini/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub Actions</title>
+      <link>https://datafox.tw/tags/github-actions/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>I18n</title>
+      <link>https://datafox.tw/tags/i18n/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/i18n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEO</title>
+      <link>https://datafox.tw/tags/seo/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>https://datafox.tw/tags/deep-learning/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geoguessr</title>
+      <link>https://datafox.tw/tags/geoguessr/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/geoguessr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://datafox.tw/tags/machine-learning/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcut Learning</title>
+      <link>https://datafox.tw/tags/shortcut-learning/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/tags/shortcut-learning/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AIseo</title>
       <link>https://datafox.tw/tags/aiseo/</link>
@@ -116,13 +186,6 @@
       <link>https://datafox.tw/tags/llm/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/tags/llm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>https://datafox.tw/tags/machine-learning/</link>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -371,13 +434,6 @@
       <description></description>
     </item>
     <item>
-      <title>SEO</title>
-      <link>https://datafox.tw/tags/seo/</link>
-      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/tags/seo/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AI協作</title>
       <link>https://datafox.tw/tags/ai%E5%8D%94%E4%BD%9C/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
@@ -396,20 +452,6 @@
       <link>https://datafox.tw/tags/engineeringmindset/</link>
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/tags/engineeringmindset/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gemini</title>
-      <link>https://datafox.tw/tags/gemini/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/tags/gemini/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GitHub Actions</title>
-      <link>https://datafox.tw/tags/github-actions/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://datafox.tw/tags/github-actions/</guid>
       <description></description>
     </item>
     <item>

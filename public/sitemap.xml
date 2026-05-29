@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://datafox.tw/tags/ai/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/blogging/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/gemini/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/github-actions/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/i18n/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/posts/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/seo/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/posts/auto-translation-i18n-gemini/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/categories/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/categories/data-science/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/deep-learning/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/categories/game/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/geoguessr/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/machine-learning/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/tags/shortcut-learning/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://datafox.tw/posts/geoguessr-and-generalization/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://datafox.tw/news/trending_ep4/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,9 +71,6 @@
     <loc>https://datafox.tw/tags/branding/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://datafox.tw/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://datafox.tw/tags/eeat/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,16 +83,10 @@
     <loc>https://datafox.tw/tags/llm%E6%87%89%E7%94%A8/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://datafox.tw/posts/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://datafox.tw/tags/single-source-of-truth/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/ssot/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/tags/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/news/</loc>
@@ -63,9 +108,6 @@
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/llm/</loc>
-    <lastmod>2026-05-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/tags/machine-learning/</loc>
     <lastmod>2026-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/test-time-compute/</loc>
@@ -200,9 +242,6 @@
     <loc>https://datafox.tw/tags/personal-brand/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://datafox.tw/tags/seo/</loc>
-    <lastmod>2026-05-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://datafox.tw/posts/advanced-seo-settings/</loc>
     <lastmod>2026-05-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -216,12 +255,6 @@
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/engineeringmindset/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/tags/gemini/</loc>
-    <lastmod>2026-05-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/tags/github-actions/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://datafox.tw/tags/llm%E4%BB%A3%E7%90%86%E7%A8%8B%E5%BC%8F/</loc>
@@ -373,7 +406,5 @@
   </url><url>
     <loc>https://datafox.tw/posts/datafox-website-welcome/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://datafox.tw/categories/</loc>
   </url>
 </urlset>
