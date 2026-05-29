@@ -6,37 +6,42 @@ import sys
 from google import genai
 
 def split_frontmatter(content):
-    # Regex to match frontmatter (yaml block between `---` at start of file)
     match = re.match(r'^(---\n.*?\n---\n)(.*)', content, re.DOTALL)
     if match:
         return match.group(1), match.group(2)
     return "", content
 
-def clean_body(body):
-    # Remove existing lang-toggle shortcode if present
-    body = re.sub(r'\{\{<\s*lang-toggle\s*>\}\}\s*\n?', '', body)
-    
-    # If the body contains <div class="lang-zh">, extract ONLY what's inside it.
-    # This prevents us from taking the fake <div class="lang-en"> content as well.
-    zh_match = re.search(r'<div class="lang-zh">(.*?)</div>', body, re.DOTALL)
-    if zh_match:
-        return zh_match.group(1).strip()
-    
-    # Otherwise, just strip the outer wrapper if it's there
-    body = body.strip()
-    if body.startswith('<div class="lang-zh">'):
-        body = body[len('<div class="lang-zh">'):]
-        if body.endswith('</div>'):
-            body = body[:-len('</div>')]
-        
-    return body.strip()
+def extract_yaml_field(frontmatter, field):
+    match = re.search(rf'^{field}:\s*(["\']?)(.*?)\1\s*$', frontmatter, re.MULTILINE)
+    if match:
+        return match.group(2)
+    return ""
 
-def translate_text(client, text):
-    prompt = f"""You are a professional translator. Translate the following Chinese markdown content into fluent English.
+def replace_yaml_field(frontmatter, field, new_value):
+    # Escape quotes if necessary
+    new_value = new_value.replace('"', '\\"')
+    pattern = rf'^({field}:\s*)(["\']?)(.*?)\2(\s*)$'
+    if re.search(pattern, frontmatter, re.MULTILINE):
+        return re.sub(pattern, rf'\1"{new_value}"\4', frontmatter, count=1, flags=re.MULTILINE)
+    else:
+        # If field doesn't exist, append it before the closing ---
+        return re.sub(r'\n---$', rf'\n{field}: "{new_value}"\n---', frontmatter)
+
+def translate_content(client, title, description, body):
+    prompt = f"""You are a professional translator. Translate the following Chinese content into fluent English.
 Maintain all markdown formatting, headings, links, and code blocks exactly as they are.
-Only output the translated text without any other conversational text. Do not wrap in ```markdown if not necessary.
 
-{text}"""
+Output the translated content in the exact following format:
+TITLE: [translated title]
+DESCRIPTION: [translated description]
+BODY:
+[translated body]
+
+Here is the original content:
+TITLE: {title}
+DESCRIPTION: {description}
+BODY:
+{body}"""
     
     response = client.models.generate_content(
         model="gemini-2.5-flash",
@@ -44,66 +49,64 @@ Only output the translated text without any other conversational text. Do not wr
     )
     
     out = response.text.strip()
+    
     # Strip markdown block quotes if Gemini adds them
     if out.startswith("```markdown"):
         out = out[len("```markdown"):].strip()
         if out.endswith("```"):
             out = out[:-3].strip()
-    return out
+    elif out.startswith("```"):
+        out = out[3:].strip()
+        if out.endswith("```"):
+            out = out[:-3].strip()
+
+    title_match = re.search(r'^TITLE:\s*(.*?)$', out, re.MULTILINE)
+    desc_match = re.search(r'^DESCRIPTION:\s*(.*?)$', out, re.MULTILINE)
+    
+    # Body is everything after BODY:
+    body_match = re.search(r'^BODY:\s*\n(.*)', out, re.DOTALL)
+    
+    t_title = title_match.group(1).strip() if title_match else title
+    t_desc = desc_match.group(1).strip() if desc_match else description
+    t_body = body_match.group(1).strip() if body_match else out
+    
+    return t_title, t_desc, t_body
 
 def process_file(filepath, client):
+    en_filepath = filepath[:-3] + ".en.md"
+    if os.path.exists(en_filepath):
+        return False
+        
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
         
     frontmatter, body = split_frontmatter(content)
     
-    # Check if already has English translation
-    if '<div class="lang-en">' in body or 'class="lang-en"' in body:
-        # Check if it's a fake translation (contains too many Chinese characters)
-        en_match = re.search(r'<div class="lang-en">(.*?)</div>', body, re.DOTALL)
-        if en_match:
-            en_text = en_match.group(1)
-            zh_chars = len(re.findall(r'[\u4e00-\u9fff]', en_text))
-            if zh_chars <= 20:
-                # Less than 20 Chinese characters, probably a real English translation. Skip.
-                return False
-            # Otherwise, it's a fake translation. We will proceed to re-translate it.
-        else:
-            return False
-            
     if not body.strip():
         print(f"  -> Empty body, skipping.")
         return False
         
-    print(f"Translating: {filepath}")
-    clean_zh = clean_body(body)
+    title = extract_yaml_field(frontmatter, 'title')
+    description = extract_yaml_field(frontmatter, 'description')
     
-    # Translate
+    print(f"Translating: {filepath}")
+    
     try:
-        en_translated = translate_text(client, clean_zh)
+        t_title, t_desc, t_body = translate_content(client, title, description, body)
     except Exception as e:
         print(f"  -> Error translating: {e}")
         return False
         
-    new_body = f"""{{{{< lang-toggle >}}}}
-
-<div class="lang-zh">
-
-{clean_zh}
-
-</div>
-
-<div class="lang-en">
-
-{en_translated}
-
-</div>
-"""
-    
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(frontmatter + new_body)
+    new_frontmatter = frontmatter
+    if t_title and t_title != title:
+        new_frontmatter = replace_yaml_field(new_frontmatter, 'title', t_title)
+    if t_desc and t_desc != description:
+        new_frontmatter = replace_yaml_field(new_frontmatter, 'description', t_desc)
         
-    print(f"  -> Successfully updated {filepath}")
+    with open(en_filepath, 'w', encoding='utf-8') as f:
+        f.write(new_frontmatter + "\n\n" + t_body + "\n")
+        
+    print(f"  -> Successfully created {en_filepath}")
     return True
 
 def main():
@@ -114,15 +117,15 @@ def main():
         
     client = genai.Client(api_key=api_key)
     
-    # We will search all markdown files in the content directory
     md_files = glob.glob("content/**/*.md", recursive=True)
+    # Exclude already translated files
+    md_files = [f for f in md_files if not f.endswith(".en.md")]
     
     translated_count = 0
     for filepath in md_files:
         success = process_file(filepath, client)
         if success:
             translated_count += 1
-            # Sleep to avoid hitting rate limit (15 RPM for free tier)
             print("  -> Sleeping 4 seconds to respect rate limits...")
             time.sleep(4)
             
