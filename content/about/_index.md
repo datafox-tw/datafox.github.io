@@ -1,86 +1,86 @@
 ---
-title: "關於我 | About Me"
-description: "柯宥圻 YU-CHI (Yuchi) KO - AI Systems & LLMOps · Agentic AI · Software Engineer"
+title: "About Me"
+description: "YU-CHI (Yuchi) KO - AI Systems & LLMOps · Agentic AI · Software Engineer"
 date: 2026-03-02
 draft: false
 hideMeta: true
 ---
 
-# 柯宥圻 YU-CHI (Yuchi) KO
+# YU-CHI (Yuchi) KO
 
 ✉ [r14946005@ntu.edu.tw](mailto:r14946005@ntu.edu.tw) ｜ [GitHub](https://github.com/datafox-tw) ｜ [LinkedIn](https://linkedin.com/in/koyuchi)
 
-> **AI 系統與 LLMOps｜Agentic AI｜軟體工程**
+> **AI Systems & LLMOps · Agentic AI · Software Engineer**
 
 ---
 
-## 🎓 學歷 EDUCATION
+## 🎓 EDUCATION
 
-### 國立臺灣大學 National Taiwan University
-**資料科學碩士 M.S. in Data Science (College of EECS)**
+### National Taiwan University
+**M.S. in Data Science (College of EECS)**
 *Taipei, Taiwan | Sep 2025 – Present*
 
-*   **實驗室**: Machine Intelligence & Agentic System Lab (MSLAB)
-*   **指導教授**: 林守德 教授 Prof. Shou-de Lin
-*   **研究方向**: LLM 應用、智慧交易系統、Agent 系統
+*   **Lab**: Machine Intelligence & Agentic System Lab (MSLAB)
+*   **Advisor**: Prof. Shou-de Lin
+*   **Research Focus**: LLM applications, intelligent trading systems, and agent systems
 
-### 國立臺灣大學 National Taiwan University
-**財務金融學學士 ＆ 決策資料科學雙主修 B.B.A. in Finance & Decisive Data Science (UIBP)**
+### National Taiwan University
+**B.B.A. in Finance & Decisive Data Science (UIBP)**
 *Taipei, Taiwan | Sep 2021 – Jun 2025*
 
 *   **GPA**: 4.04 / 4.3 (Total 192 credits)
 
 ---
 
-## 💼 經歷 EXPERIENCE
+## 💼 EXPERIENCE
 
-### 國泰世華銀行 Cathay United Bank
-**LLMOps 工程師 LLMOps Engineer**
+### Cathay United Bank
+**LLMOps Engineer**
 *Taipei, Taiwan | Jun 2024 – Dec 2024*
 
-*   **企業級 AI 系統落地**：共同開發並上線國泰首套內部法規查詢 AI 系統。顯著降低 hallucination、提升金融領域正確性，檢索準確率由 70% 提升至 94%。
-*   **進階 RAG 與 GraphRAG 架構**：建立金融與法遵文件專用前處理流程，導入 entity linking 與 multi-hop reasoning。
-*   **Agent 工作流整合**：導入公司首個正式上線的 agent-based LLM 系統，支援 memory、tool use、圖表與簡報生成。建立具資安意識的惡意查詢偵測模組，安全拒答率提升 85%。
+*   **Production-Scale AI System**: Co-developed and launched Cathay's first internal AI system for regulatory queries; improved finance-domain correctness and raised retrieval accuracy from 70% to 94%.
+*   **Advanced RAG & GraphRAG Pipeline**: Implemented enterprise-grade RAG with preprocessing for financial & compliance documents; added entity-linking and multi-hop reasoning.
+*   **Agent-based Workflow Integration**: Introduced multi-agent orchestration — the company's first production-ready agent system supporting memory, tool use, chart and slide generation. Built a security-aware malicious query detection module, improving safe refusal rate by 85%.
 
-### 沛智科技 Genibuilder Inc.
-**AI 工程實習生 AI Engineer Intern**
+### Genibuilder Inc.
+**AI Engineer Intern**
 *Taipei, Taiwan | Jul 2025 – Aug 2025*
 
-*   **啟發式 Agent 推理框架**：打造 AlphaEvolve 啟發式架構（GA + LLM reasoning），在 100 節點 TSP 達到 4.8% gap，token 使用量降低約 20 倍。
-*   **多雲部署**：於 GCP 與 Azure 部署容器化 LLM 服務。
+*   **Genetic Search + Agentic Optimization**: Built an AlphaEvolve-inspired agent framework combining GA + LLM reasoning; achieved a 4.8% gap on 100-node TSP while reducing token usage by ~20x.
+*   **Multi-Cloud Deployment**: Deployed containerized LLM services across GCP and Azure.
 
-### 中央研究院 Academia Sinica (IIS)
-**大學部研究助理 Undergraduate Research Assistant (NLP)**
+### Academia Sinica (IIS)
+**Undergraduate Research Assistant (NLP)**
 *Taipei, Taiwan | Jan 2024 – Jun 2024*
 
-*   **財報重點擷取資料集**：建立人工標註之財報資料集，用於決策導向 LLM 評測。
+*   **Financial Report Highlighting Dataset**: Constructed a human-annotated financial report dataset for decision-oriented LLM evaluation.
 
-### 豹投資 Gorich (Financial AI Startup)
-**Prompt Engineer / 軟體工程師**
+### Gorich (Financial AI Startup)
+**Prompt Engineer / Software Engineer**
 *Taipei, Taiwan | Aug 2023 – Feb 2024*
 
-*   **早期 LLM 落地 (2023)**：在企業級工具成熟前，即建置 LangChain RAG 系統並實際上線。台灣最早期的 production-grade RAG 系統之一。
+*   **Early LLM Adoption (2023)**: Entered the LLM field extremely early (mid-2023) and built one of Taiwan's first production-grade LangChain RAG systems before enterprise tooling matured.
 
 ---
 
-## 🚀 專案 PROJECTS
+## 🚀 PROJECTS
 
-*   **GraphRAG 與檢索消融研究**：分析金融與醫療文件的準確率、延遲與成本權衡。
-*   **55688 使用者偏好預測**：建立使用者意圖分類系統，較 baseline 提升 11%。
-*   **LSTM + GARCH 波動度預測**：設計混合式時序模型，在市場轉折 (regime shift) 下展現較高穩定性。
+*   **GraphRAG & Retriever/Reranker Ablation Study**: Evaluated retrievers and rerankers for financial and medical documents on accuracy, latency, and cost trade-offs.
+*   **User Preference Prediction**: Built a multi-category user intent classification system, outperforming baseline by 11%.
+*   **LSTM + GARCH Volatility Forecasting**: Designed hybrid LSTM+GARCH volatility models with improved stability under market regime shifts.
 
 ---
 
-## 🏆 其他榮譽與技能 ADDITIONAL
+## 🏆 ADDITIONAL
 
-*   **競賽相關**：
-    *   **GenAI STAR 全國競賽**：前 10 名 (Top 10 / 700+ teams), ELTV 組最佳獎。
-    *   **2026 TSMC IT CareerHack**：決賽入圍 (Finalist).
-*   **語言能力**：中文 (Native), English (IELTS 7.5; TOEIC 895), Spanish (Intermediate).
-*   **國際交流**：巴塞隆納 6 個月交換學程。
-*   **技術社群**：台大 AI 社 技術長 (NTUAI Technical Officer).
+*   **Awards**:
+    *   **GenAI STAR National Competition**: Top 10 / 700+ teams, Best Award in ELTV category.
+    *   **2026 TSMC IT CareerHack**: Finalist.
+*   **Languages**: Mandarin (Native), English (IELTS 7.5; TOEIC 895), Spanish (Intermediate).
+*   **International Exchange**: 6-month exchange program in Barcelona.
+*   **Technical Leadership**: NTU AI Club Technical Officer (NTUAI).
 
-### 🛠 技術能力 TECHNICAL SKILLS
+### 🛠 TECHNICAL SKILLS
 
-*   **核心技術**: Python, C++, SQL, Docker, Git, Linux, FastAPI, PostgreSQL, Redis, Neo4j, Cloud (GCP, Azure).
-*   **LLM 系統**: RAG, GraphRAG, LLM Agents, Tool Use & Memory, Fine-tuning, LangChain, LlamaIndex.
+*   **Core**: Python, C++, SQL, Docker, Git, Linux, FastAPI, PostgreSQL, Redis, Neo4j, Cloud (GCP, Azure).
+*   **LLM Systems**: RAG, GraphRAG, LLM Agents, Tool Use & Memory, Fine-tuning, LangChain, LlamaIndex.

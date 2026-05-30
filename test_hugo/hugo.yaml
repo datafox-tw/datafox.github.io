@@ -1,0 +1,13 @@
+baseURL: https://example.org/
+defaultContentLanguage: en
+languages:
+  en:
+    weight: 1
+    permalinks:
+      page:
+        posts: /en/posts/:filename/
+  zh-tw:
+    weight: 2
+    permalinks:
+      page:
+        posts: /posts/:filename/
