@@ -74,11 +74,11 @@ languages:
     weight: 2
     permalinks:
       page:
-        posts: /en/posts/:contentbasename/
-        news: /en/news/:contentbasename/
-        portfolio: /en/portfolio/:contentbasename/
-        podcast: /en/podcast/:contentbasename/
-        coffeechat: /en/coffeechat/:contentbasename/
+        posts: /posts/:contentbasename/
+        news: /news/:contentbasename/
+        portfolio: /portfolio/:contentbasename/
+        podcast: /podcast/:contentbasename/
+        coffeechat: /coffeechat/:contentbasename/
     menu:
       main:
         - name: "Home"

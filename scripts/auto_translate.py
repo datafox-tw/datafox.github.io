@@ -27,18 +27,20 @@ def replace_yaml_field(frontmatter, field, new_value):
         # If field doesn't exist, append it before the closing ---
         return re.sub(r'\n---$', rf'\n{field}: "{new_value}"\n---', frontmatter)
 
-def translate_content(client, title, description, body):
+def translate_content(client, title,subtitle, description, body):
     prompt = f"""You are a professional translator. Translate the following Chinese content into fluent English.
 Maintain all markdown formatting, headings, links, and code blocks exactly as they are.
 
 Output the translated content in the exact following format:
 TITLE: [translated title]
+SUBTITLE: [translated subtitle]
 DESCRIPTION: [translated description]
 BODY:
 [translated body]
 
 Here is the original content:
-TITLE: {title}
+TITLE: {title},
+SUBTITLE: {subtitle}
 DESCRIPTION: {description}
 BODY:
 {body}"""
@@ -61,19 +63,24 @@ BODY:
             out = out[:-3].strip()
 
     title_match = re.search(r'^TITLE:\s*(.*?)$', out, re.MULTILINE)
+    subtitle_match = re.search(r'^SUBTITLE:\s*(.*?)$', out, re.MULTILINE)
     desc_match = re.search(r'^DESCRIPTION:\s*(.*?)$', out, re.MULTILINE)
     
     # Body is everything after BODY:
-    body_match = re.search(r'^BODY:\s*\n(.*)', out, re.DOTALL)
+    body_match = re.search(r'^BODY:\s*\n(.*)', out, re.DOTALL | re.MULTILINE)
     
     t_title = title_match.group(1).strip() if title_match else title
+    t_subtitle = subtitle_match.group(1).strip() if subtitle_match else subtitle
     t_desc = desc_match.group(1).strip() if desc_match else description
-    t_body = body_match.group(1).strip() if body_match else out
     
-    return t_title, t_desc, t_body
+    if not body_match:
+        raise ValueError("Could not parse BODY from Gemini response")
+    t_body = body_match.group(1).strip()
+    
+    return t_title, t_subtitle, t_desc, t_body
 
 def process_file(filepath, client):
-    en_filepath = filepath[:-3] + ".en.md"
+    en_filepath = filepath[:-9] + ".md"
     if os.path.exists(en_filepath):
         return False
         
@@ -87,12 +94,13 @@ def process_file(filepath, client):
         return False
         
     title = extract_yaml_field(frontmatter, 'title')
+    subtitle = extract_yaml_field(frontmatter, 'subtitle')
     description = extract_yaml_field(frontmatter, 'description')
     
     print(f"Translating: {filepath}")
     
     try:
-        t_title, t_desc, t_body = translate_content(client, title, description, body)
+        t_title, t_subtitle, t_desc, t_body = translate_content(client, title, description, body)
     except Exception as e:
         print(f"  -> Error translating: {e}")
         return False
@@ -100,6 +108,8 @@ def process_file(filepath, client):
     new_frontmatter = frontmatter
     if t_title and t_title != title:
         new_frontmatter = replace_yaml_field(new_frontmatter, 'title', t_title)
+    if t_subtitle and t_subtitle != subtitle:
+        new_frontmatter = replace_yaml_field(new_frontmatter, 'subtitle', t_subtitle)
     if t_desc and t_desc != description:
         new_frontmatter = replace_yaml_field(new_frontmatter, 'description', t_desc)
         
@@ -117,9 +127,7 @@ def main():
         
     client = genai.Client(api_key=api_key)
     
-    md_files = glob.glob("content/**/*.md", recursive=True)
-    # Exclude already translated files
-    md_files = [f for f in md_files if not f.endswith(".en.md")]
+    md_files = glob.glob("content/**/*.zh-tw.md", recursive=True)
     
     translated_count = 0
     for filepath in md_files:

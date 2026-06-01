@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Categories on datafox.tw</title><link>https://datafox.tw/categories/</link><description>Recent content in Categories on datafox.tw</description><image><title>datafox.tw</title><url>https://datafox.tw/images/Open_graph_image.png</url><link>https://datafox.tw/images/Open_graph_image.png</link></image><generator>Hugo -- 0.148.1</generator><language>en</language><lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://datafox.tw/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Science</title><link>https://datafox.tw/categories/data-science/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>https://datafox.tw/categories/data-science/</guid><description/></item><item><title>Game</title><link>https://datafox.tw/categories/game/</link><pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate><guid>https://datafox.tw/categories/game/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on datafox.tw</title>
+    <link>https://datafox.tw/categories/</link>
+    <description>Recent content in Categories on datafox.tw</description>
+    <image>
+      <title>datafox.tw</title>
+      <url>https://datafox.tw/images/Open_graph_image.png</url>
+      <link>https://datafox.tw/images/Open_graph_image.png</link>
+    </image>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://datafox.tw/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Science</title>
+      <link>https://datafox.tw/categories/data-science/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/categories/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game</title>
+      <link>https://datafox.tw/categories/game/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/categories/game/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
