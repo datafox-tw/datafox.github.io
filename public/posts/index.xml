@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.148.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>,</title>
+      <link>https://datafox.tw/posts/260601_0038/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260601_0038/</guid>
+      <description>This article chronicles a cross-language communication bottleneck encountered recently in a practical project. I initially thought the Java engine was too demanding, but only after deep-diving into the logs did I discover that Python&amp;#39;s built-in JSON parser was the culprit. On the verge of a breakdown while debugging, I furiously revamped my entire LinkedIn profile and buried tons of absurd easter eggs in the education section for everyone to find.</description>
+    </item>
+    <item>
+      <title>Website Evolution Unveiled: Fully Embracing Native Bilingual Architecture (Bilingual Native)</title>
+      <link>https://datafox.tw/posts/260529_2106/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260529_2106/</guid>
+      <description>This article documents how datafox.tw upgraded from a crude single-file CSS hiding switch to Hugo&amp;#39;s native i18n multi-language architecture. Thanks to GitHub Actions and the Gemini API, I can still focus solely on writing in Chinese, while the system automatically generates an independent English version of the webpage in the background, significantly boosting SEO and the reading experience.</description>
+    </item>
     <item>
       <title>Write Natively, AI Globalizes Content: Site-Wide Automated Bilingualization in Practice</title>
       <link>https://datafox.tw/posts/260529_1943/</link>
@@ -26,6 +40,13 @@
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/posts/260528_1530/</guid>
       <description>Drawing from Geoguessr&amp;#39;s meta-strategies, we explore the potent yet elusive problem of shortcut learning in machine learning.</description>
+    </item>
+    <item>
+      <title>Why Pure Technical Articles Won&#39;t Work in the AI Era? Reclaiming E-E-A-T and Rebuilding the Moat of &#34;Personal Entity&#34;</title>
+      <link>https://datafox.tw/posts/260526_1019/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260526_1019/</guid>
+      <description>This made me re-examine Google&amp;#39;s consistently emphasized E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness), and I was startled to realize that in my pursuit of technical depth, I had inadvertently lost the most important &amp;#34;soul&amp;#34; of my articles. What should I do?</description>
     </item>
     <item>
       <title>Debunking Marketing Illusions of AI Models: KV Cache&#39;s Brute-Force Elegance and Test-Time Compute&#39;s Reality</title>
@@ -47,6 +68,13 @@
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/posts/260514_1725/</guid>
       <description>When Transformers first emerged, Seq2Seq seemed more logical. However, mainstream LLMs (e.g., GPT) are now exclusively Decoder-only. This article examines the architectural differences between Decoder and Seq2Seq, and their connection to Next Token Prediction, Scaling Laws, and emergent model capabilities.</description>
+    </item>
+    <item>
+      <title>SEO Reflections: The Story of a Costly Oversight and My Fixes Today</title>
+      <link>https://datafox.tw/posts/260503_1156/</link>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260503_1156/</guid>
+      <description>I had set up AI-SEO&amp;#39;s robots.txt and JSON-LD, but I missed configuring the most crucial URL keywords and descriptions.</description>
     </item>
     <item>
       <title>Automating Website Updates for Weekly Reports: GitHub Actions &#43; Gemini</title>
@@ -77,6 +105,34 @@
       <description>This analysis investigates why &amp;#34;talkative&amp;#34; AI agents, despite multi-step reasoning and multi-agent architectures generally improving AI performance, prove disastrous in finance. It examines how the extreme precision required for quantitative financial validation, highlighted by JPMorgan&amp;#39;s 46% Pass@1 accuracy, reveals multi-dialogue reduces effectiveness. This exposes how low accuracy and the &amp;#34;reflection trap&amp;#34; limit financial AI applications.</description>
     </item>
     <item>
+      <title>Why Work Hard on Machine Learning Assignments? A Self-Motivating Proof</title>
+      <link>https://datafox.tw/posts/260428_2104/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260428_2104/</guid>
+      <description>Faced with the immense pressure of machine learning assignments and long waits for model convergence, do you ever question your efforts&amp;#39; meaning? This article explores how graduate students navigate the AI era, staying focused, managing distractions, and overcoming isolation during fragmented moments. Through honest self-analysis, the author shares strategies for validating effort and finding value in tasks from model training to report writing, inspiring readers to discover their own rhythm and purpose in fast-paced academic research.</description>
+    </item>
+    <item>
+      <title>&#34;Forever Free Coffee Chat&#34; Manifesto</title>
+      <link>https://datafox.tw/posts/260422_2158/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260422_2158/</guid>
+      <description>Tired of the sycophancy in the AI community? Here&amp;#39;s a permanently free Coffee Chat to help you navigate career uncertainties and engage in deep discussions about AI technology and life. Beyond genuine conversations, the author also specializes in translating complex technology into public speeches, workshops, and consulting services. Whether your enterprise aims to implement RAG systems or your technical team is building Agentic AI, you&amp;#39;ll gain a practical roadmap to jointly explore AI&amp;#39;s potential.</description>
+    </item>
+    <item>
+      <title>From &#34;Text Completion Game&#34; to &#34;The Omnipotent LLM&#34;: Conversation Records Lost to Bugs</title>
+      <link>https://datafox.tw/posts/260423_1816/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260423_1816/</guid>
+      <description>Explore the author&amp;#39;s year-long human-computer collaboration journey with ChatGPT, from its early days as an auxiliary tool resembling a &amp;#34;text completion game&amp;#34; and &amp;#34;emotional blackmail detector&amp;#34; to its current status as the omnipotent LLM. This article revisits the conversation records that vanished from the backup feature, revealing the author&amp;#39;s evolving perspective on AI and the intriguing transformation from initial dismissiveness to a profound appreciation for the potential of large language models.</description>
+    </item>
+    <item>
+      <title>Refusing AI&#39;s &#34;Colorful Mud&#34;: Six Thinking Hats as a New Communication Protocol for Human-AI Collaboration</title>
+      <link>https://datafox.tw/posts/260419_0109/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260419_0109/</guid>
+      <description>This article explores the dilemma of AI often providing bland, &amp;#34;colorful mud&amp;#34;-like answers. It proposes redefining &amp;#34;Six Thinking Hats&amp;#34; as a new communication protocol for human-AI collaboration. By using the parallel thinking framework of White Hat, Red Hat, Black Hat, Yellow Hat, Green Hat, and Blue Hat, AI is guided to categorize its thoughts on data, emotions, risks, value, creativity, and process. This effectively enhances the quality of human-AI communication, moves beyond generic responses, and achieves more in-depth decision-making discussions.</description>
+    </item>
+    <item>
       <title>Add Navigation Search Bar</title>
       <link>https://datafox.tw/posts/260418_1600/</link>
       <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
@@ -84,11 +140,46 @@
       <description>Implement an efficient, stylish navigation search bar on your Hugo site by integrating exact matching, date-based sorting, and a seamless interface. This involves modifying `hugo.yaml`, `index.json`, and `header.html` to significantly enhance the visitor&amp;#39;s browsing experience.</description>
     </item>
     <item>
+      <title>The End of Spells: Why the &#39;Prompt Engineer&#39; Myth of 2023 Was a Collective Delusion?</title>
+      <link>https://datafox.tw/posts/260418_1540/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260418_1540/</guid>
+      <description>The &amp;#39;Prompt Engineer,&amp;#39; once lauded as a high-paying career path in 2023, is now a broken myth? The author of this article looks back at the phenomenon of that year, analyzing why this skill was once considered a golden opportunity in the AI era. It turns out that writing good prompts wasn&amp;#39;t a talent, but rather a product of early model deficiencies, compensating for the models&amp;#39; insufficient semantic understanding through manual &amp;#39;feature calibration.&amp;#39; This article deeply analyzes the true reasons why prompt engineers fell from grace, revealing the future direction of AI development.</description>
+    </item>
+    <item>
+      <title>Website Redesign Record: Pitfalls and Fixes for the Chinese-English Switching Feature</title>
+      <link>https://datafox.tw/posts/260418_1520/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260418_1520/</guid>
+      <description>While redesigning the website, I aimed to incorporate a Chinese-English switching feature, but unexpectedly ran into pitfalls with AI-generated global JavaScript. This article documents the issues encountered, ranging from hidden content and layout misalignment to screen flickering, and shares how to perfectly resolve the multilingual website&amp;#39;s switching logic and enhance the user experience by optimizing Hugo Shortcodes.</description>
+    </item>
+    <item>
+      <title>Movie Review: Fly, Mountain Hawk-Eagle!</title>
+      <link>https://datafox.tw/posts/260416_2200/</link>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260416_2200/</guid>
+      <description>A review of the documentary &amp;#34;Go! Black Kite&amp;#34; unveils the mysteries of Taiwan&amp;#39;s raptor, the Black Kite, examining its crucial ecological role and confronting survival challenges such as traditional indigenous poaching and habitat fragmentation. It also recounts the poignant conservation journey of researchers, from cultural conflicts to arduous field tracking, in their efforts to protect these aerial predators.</description>
+    </item>
+    <item>
       <title>Even Top Conference Papers Can&#39;t Escape Basic Arithmetic Checks</title>
       <link>https://datafox.tw/posts/260414_2312/</link>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/posts/260414_2312/</guid>
       <description>An arithmetic error, unnoticed even by reviewers, was found in an ACL top-tier paper claiming to evaluate &amp;#34;financial reasoning,&amp;#34; despite failing basic addition and subtraction. The discoverer&amp;#39;s account emphasizes that even leading research can be flawed, underscoring the importance of critical thinking, questioning authority, and rigorous validation frameworks for AI and high-risk fields.</description>
+    </item>
+    <item>
+      <title>A Critical Review of Barcelona Travel, Graded from &#39;Bopomofo B&#39; to &#39;Erh&#39;</title>
+      <link>https://datafox.tw/posts/260409_2102/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260409_2102/</guid>
+      <description>This &amp;#34;Barcelona Survival Checklist&amp;#34; reveals the most authentic travel experience! From how to avoid pickpockets and find clean restrooms, to must-visit attractions and delicacies, this critical review shares the author&amp;#39;s half-year of arduous experience, teaching you how to cleverly navigate Barcelona and maximize both your expectations and actual satisfaction.</description>
+    </item>
+    <item>
+      <title>My LinkedIn Story and Advice for College Students</title>
+      <link>https://datafox.tw/posts/260406_2310/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260406_2310/</guid>
+      <description>A university student shares real-world insights and practical advice on leveraging LinkedIn to kickstart your career. Learn to build an attractive profile despite limited experience, smartly use career keywords, and confidently expand your network, proactively shaping your professional image and future.</description>
     </item>
     <item>
       <title>Taipei Mayoral Election: Observations and Data</title>
@@ -109,7 +200,14 @@
       <link>https://datafox.tw/posts/260308_0022/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/posts/260308_0022/</guid>
-      <description>The author expresses passion for software engineering and AI, highlighting the importance of cross-disciplinary learning and multi-model thinking in the current tech wave. The piece encourages individuals, whether from humanities backgrounds or feeling lost in AI, to leverage LLMs to lower exploration barriers. It concludes by detailing the NTU AI Club, which provides a comprehensive AI technology learning roadmap to build foundational skills, master ML/LLM applications, and secure internships.</description>
+      <description>this paragraph highlighting the importance of cross-disciplinary learning and multi-model thinking in the current tech wave. The piece encourages individuals, whether from humanities backgrounds or feeling lost in AI, to leverage LLMs to lower exploration barriers. It concludes by detailing the NTU AI Club, which provides a comprehensive AI technology learning roadmap to build foundational skills, master ML/LLM applications, and secure internships.</description>
+    </item>
+    <item>
+      <title>From Banqiao to Multi-Agent: Imagining What&#39;s Next</title>
+      <link>https://datafox.tw/posts/260306_2238/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/posts/260306_2238/</guid>
+      <description>A reflection on recent life updates and the exciting prospect of building real-world AI applications.</description>
     </item>
     <item>
       <title>Email Address Change Notification</title>
@@ -137,7 +235,7 @@
       <link>https://datafox.tw/posts/260302_1425/</link>
       <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/posts/260302_1425/</guid>
-      <description>AI Fox, Ke Youqi&amp;#39;s thinking add-on</description>
+      <description>AI Fox, KO YUCHI&amp;#39;s thinking add-on</description>
     </item>
     <item>
       <title>Origin</title>
