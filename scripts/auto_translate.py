@@ -100,7 +100,7 @@ def process_file(filepath, client):
     print(f"Translating: {filepath}")
     
     try:
-        t_title, t_subtitle, t_desc, t_body = translate_content(client, title, description, body)
+        t_title, t_subtitle, t_desc, t_body = translate_content(client, title, subtitle, description, body)
     except Exception as e:
         print(f"  -> Error translating: {e}")
         return False
