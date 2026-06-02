@@ -163,7 +163,7 @@
             const searchResults = document.getElementById('global-search-results');
             let searchIndex = null;
 
-            fetch('/index.json')
+            fetch('{{ "index.json" | relLangURL }}')
                 .then(res => res.json())
                 .then(data => {
                     searchIndex = data;

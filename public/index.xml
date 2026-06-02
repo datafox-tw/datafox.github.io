@@ -14,7 +14,7 @@
     <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://datafox.tw/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>,</title>
+      <title>When a High-Speed Engine Meets Slowpoke JSON: An Engineer&#39;s Performance Art After Debugging Hell</title>
       <link>https://datafox.tw/posts/260601_0038/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/posts/260601_0038/</guid>
@@ -145,6 +145,13 @@
       <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
       <guid>https://datafox.tw/posts/260502_1426/</guid>
       <description>A painful lesson in &amp;#39;pure Vibe coding</description>
+    </item>
+    <item>
+      <title>[ENG-ver Available] What to Discuss in a Coffee Chat? Example 1: A Real Account of International Career Transition, Google Interview, and AI Hallucination</title>
+      <link>https://datafox.tw/coffeechat/ver-1-1-0/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://datafox.tw/coffeechat/ver-1-1-0/</guid>
+      <description>Through a conversation with a UK master&amp;#39;s graduate, we break down Taiwan&amp;#39;s AI job market and Google&amp;#39;s internship process, incidentally teaching a lesson to those who blindly rely on AI summaries.</description>
     </item>
     <item>
       <title>NTUAI - AIcohol Event Concluded Successfully</title>
