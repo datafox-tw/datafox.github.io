@@ -149,7 +149,7 @@
     <!-- Custom Global Search -->
     <div id="global-search-container"
         style="max-width: calc(var(--main-width) + var(--gap) * 2); margin: 0 auto; padding: 0 var(--gap); position: relative; padding-bottom: 10px;">
-        <input type="text" id="global-search-input" placeholder="🔍 搜尋你想要找尋的關鍵字..."
+        <input type="text" id="global-search-input" placeholder="{{ if eq .Lang "en" }}🔍 Search articles...{{ else }}🔍 搜尋你想要找尋的關鍵字...{{ end }}"
             style="width: 100%; padding: 8px 12px; border: 1.5px solid var(--border); border-radius: 6px; background: transparent; color: inherit; outline: none; transition: border-color 0.2s;"
             onfocus="this.style.borderColor='var(--primary)'" onblur="this.style.borderColor='var(--border)'" />
         <ul id="global-search-results"
@@ -200,14 +200,14 @@
                     <li style="border-bottom: 1px solid var(--border);">
                         <a href="${item.permalink}" style="display: block; padding: 12px; text-decoration: none; color: var(--primary);">
                             <div style="font-weight: bold; margin-bottom: 4px;">${item.title} ${dateStr}</div>
-                            <div style="font-size: 0.85rem; color: var(--secondary); overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${item.summary || '點擊閱讀更多'}</div>
+                            <div style="font-size: 0.85rem; color: var(--secondary); overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${item.summary || ({{ if eq .Lang "en" }}'Click to read more'{{ else }}'點擊閱讀更多'{{ end }})}</div>
                         </a>
                     </li>
                     `;
                     }).join('');
                 } else {
                     searchResults.style.display = 'block';
-                    searchResults.innerHTML = '<li style="padding: 12px; color: var(--tertiary); text-align: center;">沒有找到任何結果</li>';
+                    searchResults.innerHTML = '<li style="padding: 12px; color: var(--tertiary); text-align: center;">{{ if eq .Lang "en" }}No results found{{ else }}沒有找到任何結果{{ end }}</li>';
                 }
             });
 

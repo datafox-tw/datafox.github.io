@@ -25,7 +25,7 @@ def replace_yaml_field(frontmatter, field, new_value):
 def translate_text(client, text, is_title=False):
     prompt = f"Translate this {'title' if is_title else 'description'} to English concisely. Output ONLY the English text, no quotes or extra text.\n\n{text}"
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.8-flash",
         contents=prompt,
     )
     return response.text.strip().strip('"\'')

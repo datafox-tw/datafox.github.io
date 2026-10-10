@@ -21,7 +21,7 @@ from google import genai
 
 POSTS_DIR = Path("content/posts")
 ENV_FILE = Path(".env.local")
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.8-flash"
 
 SLUG_PROMPT = """你是 SEO 專家。根據文章標題，生成一個英文 URL slug。
 

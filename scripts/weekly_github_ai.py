@@ -97,7 +97,7 @@ def generate_content(repos):
 }}"""
 
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3.8-flash",
             contents=prompt,
         )
         
@@ -124,7 +124,7 @@ def generate_content(repos):
 }}"""
 
     tags_response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.8-flash",
         contents=tags_prompt,
     )
     tags_text = tags_response.text.strip()

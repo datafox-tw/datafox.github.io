@@ -17,7 +17,7 @@ from google import genai
 
 POSTS_DIR = Path("content/posts")
 ENV_FILE = Path(".env.local")
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.8-flash"
 
 SYSTEM_PROMPT = """你是 SEO 文案專家。根據文章標題與內文，生成一段繁體中文 meta description。
 

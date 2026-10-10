@@ -46,7 +46,7 @@ BODY:
 {body}"""
     
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model="gemini-3.8-flash",
         contents=prompt,
     )
     
@@ -72,6 +72,8 @@ BODY:
     t_title = title_match.group(1).strip() if title_match else title
     t_subtitle = subtitle_match.group(1).strip() if subtitle_match else subtitle
     t_desc = desc_match.group(1).strip() if desc_match else description
+    if t_desc.startswith("BODY:"):
+        t_desc = ""
     
     if not body_match:
         raise ValueError("Could not parse BODY from Gemini response")
@@ -82,7 +84,7 @@ BODY:
 def process_file(filepath, client):
     en_filepath = filepath[:-9] + ".md"
     if os.path.exists(en_filepath):
-        return False
+        return None
         
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
@@ -90,8 +92,8 @@ def process_file(filepath, client):
     frontmatter, body = split_frontmatter(content)
     
     if not body.strip():
-        print(f"  -> Empty body, skipping.")
-        return False
+        print(f"  -> Empty body, skipping {filepath}")
+        return None
         
     title = extract_yaml_field(frontmatter, 'title')
     subtitle = extract_yaml_field(frontmatter, 'subtitle')
@@ -99,18 +101,14 @@ def process_file(filepath, client):
     
     print(f"Translating: {filepath}")
     
-    try:
-        t_title, t_subtitle, t_desc, t_body = translate_content(client, title, subtitle, description, body)
-    except Exception as e:
-        print(f"  -> Error translating: {e}")
-        return False
+    t_title, t_subtitle, t_desc, t_body = translate_content(client, title, subtitle, description, body)
         
     new_frontmatter = frontmatter
     if t_title and t_title != title:
         new_frontmatter = replace_yaml_field(new_frontmatter, 'title', t_title)
     if t_subtitle and t_subtitle != subtitle:
         new_frontmatter = replace_yaml_field(new_frontmatter, 'subtitle', t_subtitle)
-    if t_desc and t_desc != description:
+    if t_desc != description:
         new_frontmatter = replace_yaml_field(new_frontmatter, 'description', t_desc)
         
     with open(en_filepath, 'w', encoding='utf-8') as f:
@@ -119,7 +117,18 @@ def process_file(filepath, client):
     print(f"  -> Successfully created {en_filepath}")
     return True
 
+def load_env():
+    for env_file in [".env.local", ".env"]:
+        if os.path.exists(env_file):
+            with open(env_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        k, v = line.split('=', 1)
+                        os.environ.setdefault(k.strip(), v.strip())
+
 def main():
+    load_env()
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         print("GEMINI_API_KEY environment variable is not set.")
@@ -130,14 +139,24 @@ def main():
     md_files = glob.glob("content/**/*.zh-tw.md", recursive=True)
     
     translated_count = 0
+    errors = []
     for filepath in md_files:
-        success = process_file(filepath, client)
-        if success:
-            translated_count += 1
-            print("  -> Sleeping 4 seconds to respect rate limits...")
-            time.sleep(4)
+        try:
+            success = process_file(filepath, client)
+            if success:
+                translated_count += 1
+                print("  -> Sleeping 4 seconds to respect rate limits...")
+                time.sleep(4)
+        except Exception as e:
+            print(f"  -> Error translating {filepath}: {e}")
+            errors.append((filepath, e))
             
     print(f"Done. Translated {translated_count} files.")
+    if errors:
+        print(f"Encountered {len(errors)} translation error(s):")
+        for fp, err in errors:
+            print(f"  - {fp}: {err}")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
