@@ -3,10 +3,13 @@ import os
 import re
 import json
 import sys
+import random
+import time
 from datetime import datetime
 from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
 from google import genai
+from google.genai import errors
 
 RSS_URL = "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml"
 KEYWORDS = [
@@ -16,6 +19,9 @@ KEYWORDS = [
 TOP_N = 15
 CONTENT_DIR = "content/news"
 TZ = ZoneInfo("Asia/Taipei")
+
+PRIMARY_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+FALLBACK_MODEL = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.5-flash")
 
 
 class _HTMLStripper(HTMLParser):
@@ -62,6 +68,51 @@ def keyword_filter(repos):
     return matched
 
 
+def call_gemini_with_retry(client, prompt, max_retries=4):
+    """
+    呼叫 Gemini API，具備指數退避重試（因應 503 UNAVAILABLE, 429 等暫時性錯誤）。
+    若主模型重試後仍持續失敗，自動切換至備用模型。
+    """
+    models_to_try = [PRIMARY_MODEL]
+    if FALLBACK_MODEL and FALLBACK_MODEL != PRIMARY_MODEL:
+        models_to_try.append(FALLBACK_MODEL)
+
+    last_err = None
+    for model_name in models_to_try:
+        for attempt in range(1, max_retries + 1):
+            try:
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=prompt,
+                )
+                return response.text.strip()
+            except errors.APIError as e:
+                last_err = e
+                code = getattr(e, "code", None)
+                is_transient = code in (429, 500, 502, 503, 504) or "503" in str(e) or "UNAVAILABLE" in str(e)
+                if not is_transient and attempt == 1:
+                    raise
+                if attempt < max_retries:
+                    sleep_time = (2 ** attempt) + random.uniform(0.5, 2.0)
+                    print(f"    [Retry {attempt}/{max_retries}] Model {model_name} error ({code or e}): waiting {sleep_time:.1f}s...")
+                    time.sleep(sleep_time)
+                else:
+                    print(f"    [Warning] Model {model_name} failed after {max_retries} attempts: {e}")
+            except Exception as e:
+                last_err = e
+                if attempt < max_retries:
+                    sleep_time = (2 ** attempt) + random.uniform(0.5, 2.0)
+                    print(f"    [Retry {attempt}/{max_retries}] Unexpected error: {e}. Waiting {sleep_time:.1f}s...")
+                    time.sleep(sleep_time)
+                else:
+                    print(f"    [Warning] Failed after {max_retries} attempts: {e}")
+
+        if model_name != models_to_try[-1]:
+            print("    [Info] Switching to fallback model...")
+
+    raise last_err
+
+
 def generate_content(repos):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -72,7 +123,7 @@ def generate_content(repos):
     intros = []
     
     print("  -> Generating intros one by one to avoid context fatigue...")
-    for r in repos:
+    for idx, r in enumerate(repos):
         repo_json = json.dumps(
             {"name": r["name"], "description": r["description"], "language": r["language"]},
             ensure_ascii=False,
@@ -96,21 +147,19 @@ def generate_content(repos):
   "intro": "介紹文字"
 }}"""
 
-        response = client.models.generate_content(
-            model="gemini-3.8-flash",
-            contents=prompt,
-        )
-        
-        text = response.text.strip()
-        text = re.sub(r"^```(?:json)?\s*", "", text)
-        text = re.sub(r"\s*```$", "", text)
-        
         try:
+            text = call_gemini_with_retry(client, prompt)
+            text = re.sub(r"^```(?:json)?\s*", "", text)
+            text = re.sub(r"\s*```$", "", text)
             res_json = json.loads(text)
             intros.append(res_json)
         except Exception as e:
-            print(f"    [Warning] Failed to parse JSON for {r['name']}: {e}")
+            print(f"    [Warning] Failed to generate intro for {r['name']}: {e}")
             intros.append({"name": r["name"], "intro": r["description"]})
+
+        # 請求之間稍作停頓，降低 rate limit 與尖峰負載機率
+        if idx < len(repos) - 1:
+            time.sleep(1.5)
 
     print("  -> Generating overall tags...")
     repo_names = [r["name"] for r in repos]
@@ -123,18 +172,14 @@ def generate_content(repos):
   "tags": ["GitHub趨勢", "AI週報", "..."]
 }}"""
 
-    tags_response = client.models.generate_content(
-        model="gemini-3.8-flash",
-        contents=tags_prompt,
-    )
-    tags_text = tags_response.text.strip()
-    tags_text = re.sub(r"^```(?:json)?\s*", "", tags_text)
-    tags_text = re.sub(r"\s*```$", "", tags_text)
-    
     try:
+        tags_text = call_gemini_with_retry(client, tags_prompt)
+        tags_text = re.sub(r"^```(?:json)?\s*", "", tags_text)
+        tags_text = re.sub(r"\s*```$", "", tags_text)
         tags_json = json.loads(tags_text)
         tags = tags_json.get("tags", ["GitHub趨勢", "AI週報"])
-    except Exception:
+    except Exception as e:
+        print(f"    [Warning] Failed to generate tags: {e}. Using default tags.")
         tags = ["GitHub趨勢", "AI週報"]
 
     return {
